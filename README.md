@@ -61,7 +61,21 @@ The dashboard is a web app where you can view the data.
 
 ---
 
-## Note on Data Connection
-Currently, the **Dashboard uses mock data** for demonstration purposes. It does not yet automatically pull from the MCP server (as MCP is designed primarily for AI context). 
+## 3. Updating the Data
+The dashboard displays a **static snapshot** of Clash Royale meta data. This ensures fast load times and no API rate limits for users.
 
-To see real data in the dashboard, we would typically build a direct API proxy in Next.js, but the MCP server is ready for your AI assistant to use!
+To fetch fresh data (e.g., daily), use the provided update script:
+
+1. Open your terminal in the project root.
+2. Run the update script:
+   ```bash
+   ./update_data.sh
+   ```
+   
+**What this does:**
+1. Runs `viz-dashboard/scripts/fetch_meta.py` to fetch the latest top 1000 player battles and card stats.
+2. Generates a new `meta_snapshot.json`.
+3. Automatically commits and pushes the new data to GitHub.
+4. Triggers a redeploy on Vercel (if connected).
+
+*Note: You need a valid `CR_API_KEY` in `mcp-server/.env` for this to work.*
