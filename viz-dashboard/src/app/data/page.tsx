@@ -17,9 +17,6 @@ export default function DataPage() {
             <span>Live Analysis: {total_players} Top Players • {total_decks} Battles</span>
           </div>
         </div>
-        <div className="text-xs text-gray-500 font-mono">
-          Updated: {timestamp}
-        </div>
       </div>
 
       {/* Section 1: Popular Decks */}

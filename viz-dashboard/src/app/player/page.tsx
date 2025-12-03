@@ -23,9 +23,9 @@ export default function PlayerSearchPage() {
         {/* Header */}
         <div className="text-center space-y-4 flex flex-col items-center">
           <img 
-            src="https://github.com/RoyaleAPI/cr-api-assets/blob/master/ui/crown.png?raw=true" 
+            src="/assets/crown.png" 
             alt="Crown" 
-            className="w-24 h-24 mb-4"
+            className="w-16 h-16 object-contain drop-shadow-[0_0_15px_rgba(234,179,8,0.5)]"
           />
           <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
             Player Analytics

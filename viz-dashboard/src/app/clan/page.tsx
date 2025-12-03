@@ -22,7 +22,7 @@ export default function ClanSearchPage() {
       <div className="max-w-md w-full space-y-8 -mt-20">
         {/* Header */}
         <div className="text-center space-y-4">
-          <div className="text-6xl mb-4">🛡️</div>
+          <img src="/assets/clan.png" alt="Clan" className="w-24 h-24 mb-4 mx-auto object-contain" />
           <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-600">
             Clan Analytics
           </h1>
@@ -39,7 +39,7 @@ export default function ClanSearchPage() {
             type="text"
             value={tag}
             onChange={(e) => setTag(e.target.value)}
-            placeholder="Enter Clan Tag (e.g. #2CCCP)"
+            placeholder="Enter Clan Tag"
             className="w-full bg-[#171717] border border-[#262626] rounded-full py-4 px-12 text-white text-lg focus:outline-none focus:border-blue-500 transition-colors shadow-lg"
             autoFocus
           />
@@ -54,7 +54,7 @@ export default function ClanSearchPage() {
 
         <div className="text-center">
            <p className="text-xs text-gray-600">
-             Try searching for <span className="text-gray-400 font-mono cursor-pointer hover:text-white transition-colors" onClick={() => setTag('#2CCCP')}>#2CCCP</span>
+             Try searching for <span className="text-gray-400 font-mono cursor-pointer hover:text-white transition-colors" onClick={() => setTag('#QLUPVQCJ')}>#QLUPVQCJ</span>
            </p>
         </div>
       </div>

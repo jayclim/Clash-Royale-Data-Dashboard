@@ -70,7 +70,7 @@ export default function LeaderboardList({ players, clans }: { players: Player[],
       <div className="bg-[#171717] border border-[#262626] rounded-lg overflow-hidden">
         <div className="px-3 py-2 border-b border-[#262626] bg-[#1a1a1a]">
           <h2 className="text-xs font-bold text-gray-300 uppercase tracking-wider flex items-center gap-2">
-            <span className="text-red-500">🛡️</span> Clan Leaderboard
+            <img src="/assets/clan.png" alt="Clan" className="w-5 h-5 object-contain" /> Clan Leaderboard
           </h2>
         </div>
         <div className="divide-y divide-[#262626]">

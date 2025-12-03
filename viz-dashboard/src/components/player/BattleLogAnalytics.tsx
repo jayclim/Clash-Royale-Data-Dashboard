@@ -13,7 +13,7 @@ import {
   Bar,
   Cell
 } from 'recharts';
-import { Trophy, Swords, Crown } from 'lucide-react';
+import { Trophy, Swords } from 'lucide-react';
 
 interface Battle {
   type: string;
@@ -119,7 +119,7 @@ export default function BattleLogAnalytics({ battles, playerTag }: BattleLogAnal
         {/* Crown Ratio */}
         <div className="bg-[#171717] border border-[#262626] rounded-xl p-6 flex flex-col justify-between min-h-[200px]">
           <h3 className="text-gray-400 text-sm font-bold uppercase flex items-center gap-2">
-            <Crown className="w-5 h-5 text-yellow-500" />
+            <img src="/assets/crown.png" alt="Crown" className="w-5 h-5 object-contain" />
             Crown Ratio
           </h3>
           <div className="flex items-end gap-3 mt-4">

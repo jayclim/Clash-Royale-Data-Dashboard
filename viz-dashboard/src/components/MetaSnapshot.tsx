@@ -15,9 +15,9 @@ export default function MetaSnapshot() {
         <div>
           <h1 className="text-xl font-bold text-white mb-1 flex items-center gap-2">
             <img 
-              src="https://github.com/RoyaleAPI/cr-api-assets/blob/master/ui/crown.png?raw=true" 
-              alt="CR" 
-              className="w-8 h-8"
+              src="/assets/crown.png" 
+              alt="Crown" 
+              className="w-8 h-8 object-contain"
             />
             Clash Royale Meta
           </h1>

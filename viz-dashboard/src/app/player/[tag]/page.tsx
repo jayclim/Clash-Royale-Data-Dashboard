@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
-import { Trophy, Crown, Swords, Shield, Zap, ArrowLeft } from 'lucide-react';
+import { Trophy, Swords, Shield, Zap, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import SkillRadar from '@/components/SkillRadar';
 import BattleLogAnalytics from '@/components/player/BattleLogAnalytics';
@@ -125,7 +125,7 @@ export default function PlayerDashboard() {
               </div>
               <div className="bg-[#262626]/50 p-4 rounded-lg">
                 <div className="flex items-center gap-2 text-gray-400 text-xs uppercase font-bold mb-1">
-                  <Crown className="w-4 h-4" /> 3-Crowns
+                  <img src="/assets/crown.png" alt="Crown" className="w-4 h-4 object-contain" /> 3-Crowns
                 </div>
                 <div className="text-2xl font-bold">{playerData.threeCrownWins.toLocaleString()}</div>
               </div>

@@ -68,11 +68,11 @@ export default function DeckList({ decks }: { decks: Deck[] }) {
             </div>
             
             {/* Action Bar */}
-            <div className="px-2 pb-2">
+            {/* <div className="px-2 pb-2">
                <button className="w-full text-[10px] bg-[#262626] text-gray-300 py-1.5 rounded hover:bg-[#333] transition-colors font-medium border border-[#333]">
                  View Details
                </button>
-            </div>
+            </div> */}
           </div>
         ))}
       </div>
