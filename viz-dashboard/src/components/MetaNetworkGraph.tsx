@@ -149,6 +149,15 @@ export default function MetaNetworkGraph({ synergies }: { synergies: Synergy[] }
       .force("center", d3.forceCenter(width / 2, height / 2))
       .force("collide", d3.forceCollide().radius(CONFIG.PHYSICS.COLLISION_RADIUS).strength(CONFIG.PHYSICS.COLLISION_STRENGTH));
 
+    // Scales for Link Styling
+    const widthScale = d3.scaleLinear()
+      .domain([0, maxVal])
+      .range([1, 8]); // Thinner weak links, thicker strong links
+
+    const opacityScale = d3.scaleLinear()
+      .domain([0, maxVal])
+      .range([0.2, 0.8]); // Fainter weak links, bolder strong links
+
     // Sort links so stronger ones are drawn last (on top)
     data.links.sort((a, b) => a.value - b.value);
 
@@ -158,8 +167,8 @@ export default function MetaNetworkGraph({ synergies }: { synergies: Synergy[] }
       .data(data.links)
       .join("line")
       .attr("stroke", d => colorScale(d.value))
-      .attr("stroke-opacity", CONFIG.VISUALS.LINK_OPACITY)
-      .attr("stroke-width", CONFIG.VISUALS.LINK_WIDTH);
+      .attr("stroke-opacity", d => opacityScale(d.value))
+      .attr("stroke-width", d => widthScale(d.value));
 
     // Render Nodes (Groups containing Image)
     const node = g.append("g")
@@ -260,8 +269,8 @@ export default function MetaNetworkGraph({ synergies }: { synergies: Synergy[] }
         link
           .style("opacity", 1)
           .attr("stroke", d => colorScale(d.value))
-          .attr("stroke-width", CONFIG.VISUALS.LINK_WIDTH)
-          .attr("stroke-opacity", CONFIG.VISUALS.LINK_OPACITY);
+          .attr("stroke-width", d => widthScale(d.value))
+          .attr("stroke-opacity", d => opacityScale(d.value));
       });
 
     return () => {
@@ -301,7 +310,7 @@ export default function MetaNetworkGraph({ synergies }: { synergies: Synergy[] }
             <ul className="list-disc pl-3 space-y-1">
               <li>Nodes = Cards</li>
               <li>Links = Synergies</li>
-              <li>Color = Connection Strength</li>
+              <li>Color/Width = Strength</li>
             </ul>
           </div>
         </div>

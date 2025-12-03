@@ -21,11 +21,11 @@ if not os.path.exists(env_path):
     
 load_dotenv(env_path)
 
-CR_API_KEY = os.getenv("CR_API_KEY")
+CR_API_KEY = os.getenv("CR_PROXY_API_KEY")
 if not CR_API_KEY:
-    raise ValueError("CR_API_KEY not found in environment variables")
+    raise ValueError("CR_PROXY_API_KEY not found in environment variables")
 
-CR_API_BASE = "https://api.clashroyale.com/v1"
+CR_API_BASE = "https://proxy.royaleapi.dev/v1"
 HEADERS = {"Authorization": f"Bearer {CR_API_KEY}"}
 
 # Configuration

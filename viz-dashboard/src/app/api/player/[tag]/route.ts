@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const CR_API_BASE = "https://api.clashroyale.com/v1";
+const CR_API_BASE = "https://proxy.royaleapi.dev/v1";
 
 export async function GET(
     request: Request,
@@ -19,7 +19,7 @@ export async function GET(
     }
     const encodedTag = formattedTag.replace("#", "%23");
 
-    const apiKey = process.env.CR_API_KEY;
+    const apiKey = process.env.CR_PROXY_API_KEY;
 
     if (!apiKey) {
         return NextResponse.json({ error: "Server configuration error: API Key missing" }, { status: 500 });

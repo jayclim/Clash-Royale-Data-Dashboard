@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const CR_API_BASE = "https://api.clashroyale.com/v1";
+const CR_API_BASE = "https://proxy.royaleapi.dev/v1";
 
 export async function GET(
     request: NextRequest,
@@ -9,7 +9,7 @@ export async function GET(
     const { path: pathArray } = await params;
     // Encode each segment to ensure special characters like # are preserved as %23
     const path = pathArray.map(segment => encodeURIComponent(segment)).join('/');
-    const apiKey = process.env.CR_API_KEY;
+    const apiKey = process.env.CR_PROXY_API_KEY;
 
     if (!apiKey) {
         return NextResponse.json(
