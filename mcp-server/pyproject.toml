@@ -1,0 +1,13 @@
+[project]
+name = "clash-royale-mcp"
+version = "0.1.0"
+description = "Clash Royale MCP Server"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp",
+    "requests",
+    "python-dotenv"
+]
+
+[project.scripts]
+start = "src.main:main"

@@ -1,0 +1,12 @@
+pyproject.toml
+src/main.py
+src/clash_royale_mcp.egg-info/PKG-INFO
+src/clash_royale_mcp.egg-info/SOURCES.txt
+src/clash_royale_mcp.egg-info/dependency_links.txt
+src/clash_royale_mcp.egg-info/entry_points.txt
+src/clash_royale_mcp.egg-info/requires.txt
+src/clash_royale_mcp.egg-info/top_level.txt
+src/tools/cards.py
+src/tools/clans.py
+src/tools/players.py
+src/tools/utils.py

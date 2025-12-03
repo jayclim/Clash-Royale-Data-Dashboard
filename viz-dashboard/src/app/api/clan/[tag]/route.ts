@@ -1,0 +1,57 @@
+import { NextResponse } from 'next/server';
+
+const CR_API_BASE = "https://api.clashroyale.com/v1";
+
+export async function GET(
+    request: Request,
+    { params }: { params: Promise<{ tag: string }> }
+) {
+    const { tag } = await params;
+
+    if (!tag) {
+        return NextResponse.json({ error: "Tag is required" }, { status: 400 });
+    }
+
+    // Ensure tag has # and is encoded
+    let formattedTag = tag.toUpperCase();
+    if (!formattedTag.startsWith("#")) {
+        formattedTag = `#${formattedTag}`;
+    }
+    const encodedTag = formattedTag.replace("#", "%23");
+
+    const apiKey = process.env.CR_API_KEY;
+
+    if (!apiKey) {
+        return NextResponse.json({ error: "Server configuration error: API Key missing" }, { status: 500 });
+    }
+
+    try {
+        const headers = {
+            "Authorization": `Bearer ${apiKey}`,
+            "Accept": "application/json"
+        };
+
+        // Fetch Clan Details (includes member list)
+        const response = await fetch(`${CR_API_BASE}/clans/${encodedTag}`, {
+            headers,
+            next: { revalidate: 60 }
+        });
+
+        if (!response.ok) {
+            if (response.status === 404) {
+                return NextResponse.json({ error: "Clan not found" }, { status: 404 });
+            }
+            return NextResponse.json(
+                { error: `API Error: ${response.statusText}` },
+                { status: response.status }
+            );
+        }
+
+        const data = await response.json();
+        return NextResponse.json(data);
+
+    } catch (error) {
+        console.error("Failed to fetch clan data:", error);
+        return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
+    }
+}
