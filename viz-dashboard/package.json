@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "update-data": "bash scripts/update_data.sh",
+    "fetch-assets": "python3 scripts/fetch_assets.py"
   },
   "dependencies": {
     "@types/d3": "^7.4.3",

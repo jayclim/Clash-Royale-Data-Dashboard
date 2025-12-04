@@ -4,6 +4,7 @@ interface Card {
   name: string;
   icon: string;
   elixir: number;
+  is_evo?: boolean;
 }
 
 interface Deck {

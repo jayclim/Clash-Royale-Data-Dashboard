@@ -49,7 +49,18 @@ WIN_CONDITIONS = {
     "Three Musketeers": ["Three Musketeers"]
 }
 
+import fetch_assets
+
+# ... (imports)
+
+# ... (logging config)
+
+# ... (env vars)
+
+# ... (constants)
+
 def make_request(endpoint, session, params=None):
+    # ... (keep existing)
     url = f"{CR_API_BASE}/{endpoint}"
     try:
         response = session.get(url, headers=HEADERS, params=params)
@@ -63,49 +74,10 @@ def make_request(endpoint, session, params=None):
         logger.error(f"Request failed for {endpoint}: {e}")
         return None
 
-def download_image(url, filename):
-    try:
-        if os.path.exists(filename):
-            return 
-        response = requests.get(url)
-        if response.status_code == 200:
-            with open(filename, 'wb') as f:
-                f.write(response.content)
-    except Exception as e:
-        logger.error(f"Failed to download image {url}: {e}")
-
-def fetch_and_process_cards(session):
-    logger.info("Fetching all cards...")
-    data = make_request("cards", session)
-    if not data:
-        return {}
-    
-    card_map = {}
-    os.makedirs(CARDS_DIR, exist_ok=True)
-    
-    for card in data.get("items", []):
-        name = card["name"]
-        key = name.lower().replace(" ", "-").replace(".", "")
-        icon_url = card.get("iconUrls", {}).get("medium")
-        
-        if icon_url:
-            local_path = os.path.join(CARDS_DIR, f"{key}.png")
-            download_image(icon_url, local_path)
-            
-        card_map[name] = {
-            "id": card["id"],
-            "name": name,
-            "key": key,
-            "elixir": card.get("elixirCost", 0),
-            "type": card.get("type"),
-            "rarity": card.get("rarity"),
-            "icon": f"/cards/{key}.png"
-        }
-        
-    logger.info(f"Processed {len(card_map)} cards and assets.")
-    return card_map
+# Removed download_image and fetch_and_process_cards as they are now in fetch_assets.py
 
 def fetch_player_battles(player_tag, session):
+    # ... (keep existing)
     encoded_tag = player_tag.replace("#", "%23")
     data = make_request(f"players/{encoded_tag}/battlelog", session)
     if not data:
@@ -133,8 +105,10 @@ def main():
     logger.info("Starting Meta Snapshot Data Pipeline...")
     
     with requests.Session() as session:
-        # 1. Fetch Cards
-        card_map = fetch_and_process_cards(session)
+        # 1. Fetch Cards (using external module)
+        card_map = fetch_assets.fetch_and_process_cards(session, CR_API_BASE, HEADERS)
+        
+        # ... (rest of main)
         
         # 2. Fetch Top Players (with Pagination)
         logger.info(f"Fetching Top {PLAYER_LIMIT} Players...")
@@ -174,6 +148,7 @@ def main():
         synergy_counts = Counter()
         archetype_counts = Counter()
         deck_counts = Counter()
+        deck_evo_counts = {} # { deck_tuple: Counter(evo_tuple) }
         location_counts = Counter() 
         elixir_stats = {} # { "3.1": { "wins": 10, "total": 20 } }
         total_decks = 0
@@ -249,6 +224,33 @@ def main():
                     if len(card_names) == 8:
                         deck_tuple = tuple(sorted(card_names))
                         deck_counts[deck_tuple] += 1
+                        
+                        # Identify Evos
+                        evos = []
+                        for c in deck:
+                            # Check for evolution
+                            # API might return 'evolutionLevel' > 0 or icon url with 'evo'
+                            # Let's check icon url as a fallback if level isn't there
+                            is_evo = False
+                            if c.get("evolutionLevel", 0) > 0:
+                                is_evo = True
+                            elif "evo" in c.get("iconUrls", {}).get("medium", ""):
+                                is_evo = True
+                                
+                            if is_evo:
+                                evos.append(c["name"])
+                        
+                        # Always track evo variant, even if empty (No Evos)
+                        evo_tuple = tuple(sorted(evos))
+                        if deck_tuple not in deck_evo_counts:
+                            deck_evo_counts[deck_tuple] = {}
+                        
+                        if evo_tuple not in deck_evo_counts[deck_tuple]:
+                            deck_evo_counts[deck_tuple][evo_tuple] = {"count": 0, "wins": 0}
+                            
+                        deck_evo_counts[deck_tuple][evo_tuple]["count"] += 1
+                        deck_evo_counts[deck_tuple][evo_tuple]["wins"] += is_win
+
                     sorted_cards = sorted(card_names)
                     for i in range(len(sorted_cards)):
                         for j in range(i + 1, len(sorted_cards)):
@@ -285,9 +287,39 @@ def main():
         for deck_tuple, count in deck_counts.most_common(12):
             deck_cards = []
             avg_elixir = 0
+            
+            # Find most common evo variant for this deck
+            # Sort by count (desc), then wins (desc) to break ties
+            best_evos = []
+            if deck_tuple in deck_evo_counts:
+                variants = []
+                for evo_t, stats in deck_evo_counts[deck_tuple].items():
+                    variants.append({
+                        "evos": evo_t,
+                        "count": stats["count"],
+                        "wins": stats["wins"]
+                    })
+                
+                # Sort: primary key count (desc), secondary key wins (desc)
+                variants.sort(key=lambda x: (x["count"], x["wins"]), reverse=True)
+                
+                if variants:
+                    best_evos = list(variants[0]["evos"])
+
             for name in deck_tuple:
                 card_info = card_map.get(name, {"name": name, "key": "unknown", "icon": "", "elixir": 0})
-                deck_cards.append(card_info)
+                
+                # Check if this card is an Evo in the best variant
+                is_evo = name in best_evos
+                
+                card_data = card_info.copy()
+                if is_evo:
+                    card_data["is_evo"] = True
+                    # Use Evo icon if available
+                    if card_info.get("evo_icon"):
+                        card_data["icon"] = card_info["evo_icon"]
+                
+                deck_cards.append(card_data)
                 avg_elixir += card_info.get("elixir", 0)
                 
             top_decks.append({
@@ -307,6 +339,7 @@ def main():
                 "usage_rate": round((count / total_decks) * 100, 2),
                 "win_rate": round(45 + (count % 15), 2)
             })
+
             
         top_synergies = []
         for pair, count in synergy_counts.most_common(100):
