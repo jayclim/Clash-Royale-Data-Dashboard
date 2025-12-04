@@ -1,20 +1,8 @@
 {
-  "timestamp": "2025-12-03 17:23:09",
-  "total_players": 200,
-  "total_decks": 5616,
+  "timestamp": "2025-12-04 03:54:23",
+  "total_players": 275,
+  "total_decks": 7730,
   "top_cards": [
-    {
-      "id": 26000010,
-      "name": "Skeletons",
-      "key": "skeletons",
-      "elixir": 1,
-      "type": null,
-      "rarity": "common",
-      "icon": "/cards/skeletons.png",
-      "count": 2166,
-      "usage_rate": 38.57,
-      "win_rate": 51
-    },
     {
       "id": 26000018,
       "name": "Mini P.E.K.K.A",
@@ -23,9 +11,21 @@
       "type": null,
       "rarity": "rare",
       "icon": "/cards/mini-pekka.png",
-      "count": 1899,
-      "usage_rate": 33.81,
-      "win_rate": 54
+      "count": 2837,
+      "usage_rate": 36.7,
+      "win_rate": 47
+    },
+    {
+      "id": 26000010,
+      "name": "Skeletons",
+      "key": "skeletons",
+      "elixir": 1,
+      "type": null,
+      "rarity": "common",
+      "icon": "/cards/skeletons.png",
+      "count": 2738,
+      "usage_rate": 35.42,
+      "win_rate": 53
     },
     {
       "id": 28000011,
@@ -35,9 +35,9 @@
       "type": null,
       "rarity": "legendary",
       "icon": "/cards/the-log.png",
-      "count": 1622,
-      "usage_rate": 28.88,
-      "win_rate": 47
+      "count": 2110,
+      "usage_rate": 27.3,
+      "win_rate": 55
     },
     {
       "id": 28000008,
@@ -47,33 +47,9 @@
       "type": null,
       "rarity": "common",
       "icon": "/cards/zap.png",
-      "count": 1542,
-      "usage_rate": 27.46,
-      "win_rate": 57
-    },
-    {
-      "id": 28000000,
-      "name": "Fireball",
-      "key": "fireball",
-      "elixir": 4,
-      "type": null,
-      "rarity": "rare",
-      "icon": "/cards/fireball.png",
-      "count": 1232,
-      "usage_rate": 21.94,
-      "win_rate": 47
-    },
-    {
-      "id": 28000001,
-      "name": "Arrows",
-      "key": "arrows",
-      "elixir": 3,
-      "type": null,
-      "rarity": "common",
-      "icon": "/cards/arrows.png",
-      "count": 1128,
-      "usage_rate": 20.09,
-      "win_rate": 48
+      "count": 1993,
+      "usage_rate": 25.78,
+      "win_rate": 58
     },
     {
       "id": 28000015,
@@ -83,33 +59,33 @@
       "type": null,
       "rarity": "epic",
       "icon": "/cards/barbarian-barrel.png",
-      "count": 1046,
-      "usage_rate": 18.63,
-      "win_rate": 56
+      "count": 1759,
+      "usage_rate": 22.76,
+      "win_rate": 49
     },
     {
-      "id": 27000000,
-      "name": "Cannon",
-      "key": "cannon",
+      "id": 28000000,
+      "name": "Fireball",
+      "key": "fireball",
+      "elixir": 4,
+      "type": null,
+      "rarity": "rare",
+      "icon": "/cards/fireball.png",
+      "count": 1714,
+      "usage_rate": 22.17,
+      "win_rate": 49
+    },
+    {
+      "id": 28000001,
+      "name": "Arrows",
+      "key": "arrows",
       "elixir": 3,
       "type": null,
       "rarity": "common",
-      "icon": "/cards/cannon.png",
-      "count": 1013,
-      "usage_rate": 18.04,
-      "win_rate": 53
-    },
-    {
-      "id": 26000003,
-      "name": "Giant",
-      "key": "giant",
-      "elixir": 5,
-      "type": null,
-      "rarity": "rare",
-      "icon": "/cards/giant.png",
-      "count": 989,
-      "usage_rate": 17.61,
-      "win_rate": 59
+      "icon": "/cards/arrows.png",
+      "count": 1647,
+      "usage_rate": 21.31,
+      "win_rate": 57
     },
     {
       "id": 26000005,
@@ -119,9 +95,9 @@
       "type": null,
       "rarity": "common",
       "icon": "/cards/minions.png",
-      "count": 962,
-      "usage_rate": 17.13,
-      "win_rate": 47
+      "count": 1310,
+      "usage_rate": 16.95,
+      "win_rate": 50
     },
     {
       "id": 26000012,
@@ -131,9 +107,21 @@
       "type": null,
       "rarity": "epic",
       "icon": "/cards/skeleton-army.png",
-      "count": 918,
-      "usage_rate": 16.35,
-      "win_rate": 48
+      "count": 1305,
+      "usage_rate": 16.88,
+      "win_rate": 45
+    },
+    {
+      "id": 26000003,
+      "name": "Giant",
+      "key": "giant",
+      "elixir": 5,
+      "type": null,
+      "rarity": "rare",
+      "icon": "/cards/giant.png",
+      "count": 1292,
+      "usage_rate": 16.71,
+      "win_rate": 47
     },
     {
       "id": 26000030,
@@ -143,21 +131,9 @@
       "type": null,
       "rarity": "common",
       "icon": "/cards/ice-spirit.png",
-      "count": 915,
-      "usage_rate": 16.29,
-      "win_rate": 45
-    },
-    {
-      "id": 26000000,
-      "name": "Knight",
-      "key": "knight",
-      "elixir": 3,
-      "type": null,
-      "rarity": "common",
-      "icon": "/cards/knight.png",
-      "count": 787,
-      "usage_rate": 14.01,
-      "win_rate": 52
+      "count": 1251,
+      "usage_rate": 16.18,
+      "win_rate": 51
     },
     {
       "id": 26000040,
@@ -167,9 +143,33 @@
       "type": null,
       "rarity": "rare",
       "icon": "/cards/dart-goblin.png",
-      "count": 732,
-      "usage_rate": 13.03,
+      "count": 1167,
+      "usage_rate": 15.1,
       "win_rate": 57
+    },
+    {
+      "id": 27000000,
+      "name": "Cannon",
+      "key": "cannon",
+      "elixir": 3,
+      "type": null,
+      "rarity": "common",
+      "icon": "/cards/cannon.png",
+      "count": 1152,
+      "usage_rate": 14.9,
+      "win_rate": 57
+    },
+    {
+      "id": 26000000,
+      "name": "Knight",
+      "key": "knight",
+      "elixir": 3,
+      "type": null,
+      "rarity": "common",
+      "icon": "/cards/knight.png",
+      "count": 1041,
+      "usage_rate": 13.47,
+      "win_rate": 51
     },
     {
       "id": 26000056,
@@ -179,9 +179,9 @@
       "type": null,
       "rarity": "common",
       "icon": "/cards/skeleton-barrel.png",
-      "count": 692,
-      "usage_rate": 12.32,
-      "win_rate": 47
+      "count": 976,
+      "usage_rate": 12.63,
+      "win_rate": 46
     },
     {
       "id": 28000012,
@@ -191,45 +191,9 @@
       "type": null,
       "rarity": "epic",
       "icon": "/cards/tornado.png",
-      "count": 687,
-      "usage_rate": 12.23,
-      "win_rate": 57
-    },
-    {
-      "id": 26000084,
-      "name": "Electro Spirit",
-      "key": "electro-spirit",
-      "elixir": 1,
-      "type": null,
-      "rarity": "common",
-      "icon": "/cards/electro-spirit.png",
-      "count": 677,
-      "usage_rate": 12.05,
-      "win_rate": 47
-    },
-    {
-      "id": 26000033,
-      "name": "Sparky",
-      "key": "sparky",
-      "elixir": 6,
-      "type": null,
-      "rarity": "legendary",
-      "icon": "/cards/sparky.png",
-      "count": 645,
-      "usage_rate": 11.49,
-      "win_rate": 45
-    },
-    {
-      "id": 26000038,
-      "name": "Ice Golem",
-      "key": "ice-golem",
-      "elixir": 2,
-      "type": null,
-      "rarity": "rare",
-      "icon": "/cards/ice-golem.png",
-      "count": 633,
-      "usage_rate": 11.27,
-      "win_rate": 48
+      "count": 965,
+      "usage_rate": 12.48,
+      "win_rate": 50
     },
     {
       "id": 26000050,
@@ -239,21 +203,21 @@
       "type": null,
       "rarity": "legendary",
       "icon": "/cards/royal-ghost.png",
-      "count": 631,
-      "usage_rate": 11.24,
+      "count": 961,
+      "usage_rate": 12.43,
       "win_rate": 46
     },
     {
-      "id": 26000032,
-      "name": "Miner",
-      "key": "miner",
-      "elixir": 3,
+      "id": 26000084,
+      "name": "Electro Spirit",
+      "key": "electro-spirit",
+      "elixir": 1,
       "type": null,
-      "rarity": "legendary",
-      "icon": "/cards/miner.png",
-      "count": 622,
-      "usage_rate": 11.08,
-      "win_rate": 52
+      "rarity": "common",
+      "icon": "/cards/electro-spirit.png",
+      "count": 935,
+      "usage_rate": 12.1,
+      "win_rate": 50
     },
     {
       "id": 28000026,
@@ -263,9 +227,21 @@
       "type": null,
       "rarity": "epic",
       "icon": "/cards/vines.png",
-      "count": 618,
-      "usage_rate": 11.0,
-      "win_rate": 48
+      "count": 910,
+      "usage_rate": 11.77,
+      "win_rate": 55
+    },
+    {
+      "id": 26000033,
+      "name": "Sparky",
+      "key": "sparky",
+      "elixir": 6,
+      "type": null,
+      "rarity": "legendary",
+      "icon": "/cards/sparky.png",
+      "count": 867,
+      "usage_rate": 11.22,
+      "win_rate": 57
     },
     {
       "id": 26000021,
@@ -275,9 +251,21 @@
       "type": null,
       "rarity": "rare",
       "icon": "/cards/hog-rider.png",
-      "count": 610,
-      "usage_rate": 10.86,
-      "win_rate": 55
+      "count": 818,
+      "usage_rate": 10.58,
+      "win_rate": 53
+    },
+    {
+      "id": 26000032,
+      "name": "Miner",
+      "key": "miner",
+      "elixir": 3,
+      "type": null,
+      "rarity": "legendary",
+      "icon": "/cards/miner.png",
+      "count": 771,
+      "usage_rate": 9.97,
+      "win_rate": 51
     },
     {
       "id": 28000017,
@@ -287,9 +275,9 @@
       "type": null,
       "rarity": "common",
       "icon": "/cards/giant-snowball.png",
-      "count": 594,
-      "usage_rate": 10.58,
-      "win_rate": 54
+      "count": 762,
+      "usage_rate": 9.86,
+      "win_rate": 57
     },
     {
       "id": 26000014,
@@ -299,33 +287,21 @@
       "type": null,
       "rarity": "rare",
       "icon": "/cards/musketeer.png",
-      "count": 568,
-      "usage_rate": 10.11,
-      "win_rate": 58
+      "count": 753,
+      "usage_rate": 9.74,
+      "win_rate": 48
     },
     {
-      "id": 26000022,
-      "name": "Minion Horde",
-      "key": "minion-horde",
-      "elixir": 5,
+      "id": 26000038,
+      "name": "Ice Golem",
+      "key": "ice-golem",
+      "elixir": 2,
       "type": null,
-      "rarity": "common",
-      "icon": "/cards/minion-horde.png",
-      "count": 556,
-      "usage_rate": 9.9,
-      "win_rate": 46
-    },
-    {
-      "id": 26000006,
-      "name": "Balloon",
-      "key": "balloon",
-      "elixir": 5,
-      "type": null,
-      "rarity": "epic",
-      "icon": "/cards/balloon.png",
-      "count": 525,
-      "usage_rate": 9.35,
-      "win_rate": 45
+      "rarity": "rare",
+      "icon": "/cards/ice-golem.png",
+      "count": 749,
+      "usage_rate": 9.69,
+      "win_rate": 59
     },
     {
       "id": 26000058,
@@ -335,21 +311,33 @@
       "type": null,
       "rarity": "epic",
       "icon": "/cards/wall-breakers.png",
-      "count": 516,
-      "usage_rate": 9.19,
-      "win_rate": 51
+      "count": 734,
+      "usage_rate": 9.5,
+      "win_rate": 59
     },
     {
-      "id": 26000025,
-      "name": "Guards",
-      "key": "guards",
-      "elixir": 3,
+      "id": 26000022,
+      "name": "Minion Horde",
+      "key": "minion-horde",
+      "elixir": 5,
+      "type": null,
+      "rarity": "common",
+      "icon": "/cards/minion-horde.png",
+      "count": 699,
+      "usage_rate": 9.04,
+      "win_rate": 54
+    },
+    {
+      "id": 26000006,
+      "name": "Balloon",
+      "key": "balloon",
+      "elixir": 5,
       "type": null,
       "rarity": "epic",
-      "icon": "/cards/guards.png",
-      "count": 501,
-      "usage_rate": 8.92,
-      "win_rate": 51
+      "icon": "/cards/balloon.png",
+      "count": 691,
+      "usage_rate": 8.94,
+      "win_rate": 46
     },
     {
       "id": 27000007,
@@ -359,69 +347,9 @@
       "type": null,
       "rarity": "rare",
       "icon": "/cards/elixir-collector.png",
-      "count": 450,
-      "usage_rate": 8.01,
-      "win_rate": 45
-    },
-    {
-      "id": 26000041,
-      "name": "Goblin Gang",
-      "key": "goblin-gang",
-      "elixir": 3,
-      "type": null,
-      "rarity": "common",
-      "icon": "/cards/goblin-gang.png",
-      "count": 442,
-      "usage_rate": 7.87,
-      "win_rate": 52
-    },
-    {
-      "id": 28000002,
-      "name": "Rage",
-      "key": "rage",
-      "elixir": 2,
-      "type": null,
-      "rarity": "epic",
-      "icon": "/cards/rage.png",
-      "count": 441,
-      "usage_rate": 7.85,
-      "win_rate": 51
-    },
-    {
-      "id": 26000062,
-      "name": "Magic Archer",
-      "key": "magic-archer",
-      "elixir": 4,
-      "type": null,
-      "rarity": "legendary",
-      "icon": "/cards/magic-archer.png",
-      "count": 423,
-      "usage_rate": 7.53,
-      "win_rate": 48
-    },
-    {
-      "id": 26000069,
-      "name": "Skeleton King",
-      "key": "skeleton-king",
-      "elixir": 4,
-      "type": null,
-      "rarity": "champion",
-      "icon": "/cards/skeleton-king.png",
-      "count": 418,
-      "usage_rate": 7.44,
-      "win_rate": 58
-    },
-    {
-      "id": 26000031,
-      "name": "Fire Spirit",
-      "key": "fire-spirit",
-      "elixir": 1,
-      "type": null,
-      "rarity": "common",
-      "icon": "/cards/fire-spirit.png",
-      "count": 414,
-      "usage_rate": 7.37,
-      "win_rate": 54
+      "count": 641,
+      "usage_rate": 8.29,
+      "win_rate": 56
     },
     {
       "id": 26000049,
@@ -431,69 +359,9 @@
       "type": null,
       "rarity": "common",
       "icon": "/cards/bats.png",
-      "count": 402,
-      "usage_rate": 7.16,
-      "win_rate": 57
-    },
-    {
-      "id": 28000003,
-      "name": "Rocket",
-      "key": "rocket",
-      "elixir": 6,
-      "type": null,
-      "rarity": "rare",
-      "icon": "/cards/rocket.png",
-      "count": 400,
-      "usage_rate": 7.12,
-      "win_rate": 55
-    },
-    {
-      "id": 26000015,
-      "name": "Baby Dragon",
-      "key": "baby-dragon",
-      "elixir": 4,
-      "type": null,
-      "rarity": "epic",
-      "icon": "/cards/baby-dragon.png",
-      "count": 400,
-      "usage_rate": 7.12,
-      "win_rate": 55
-    },
-    {
-      "id": 26000059,
-      "name": "Royal Hogs",
-      "key": "royal-hogs",
-      "elixir": 5,
-      "type": null,
-      "rarity": "rare",
-      "icon": "/cards/royal-hogs.png",
-      "count": 392,
-      "usage_rate": 6.98,
-      "win_rate": 47
-    },
-    {
-      "id": 28000014,
-      "name": "Earthquake",
-      "key": "earthquake",
-      "elixir": 3,
-      "type": null,
-      "rarity": "rare",
-      "icon": "/cards/earthquake.png",
-      "count": 373,
-      "usage_rate": 6.64,
-      "win_rate": 58
-    },
-    {
-      "id": 28000016,
-      "name": "Heal Spirit",
-      "key": "heal-spirit",
-      "elixir": 1,
-      "type": null,
-      "rarity": "rare",
-      "icon": "/cards/heal-spirit.png",
-      "count": 372,
-      "usage_rate": 6.62,
-      "win_rate": 57
+      "count": 621,
+      "usage_rate": 8.03,
+      "win_rate": 51
     },
     {
       "id": 26000011,
@@ -503,44 +371,8 @@
       "type": null,
       "rarity": "rare",
       "icon": "/cards/valkyrie.png",
-      "count": 371,
-      "usage_rate": 6.61,
-      "win_rate": 56
-    },
-    {
-      "id": 26000023,
-      "name": "Ice Wizard",
-      "key": "ice-wizard",
-      "elixir": 3,
-      "type": null,
-      "rarity": "legendary",
-      "icon": "/cards/ice-wizard.png",
-      "count": 369,
-      "usage_rate": 6.57,
-      "win_rate": 54
-    },
-    {
-      "id": 27000006,
-      "name": "Tesla",
-      "key": "tesla",
-      "elixir": 4,
-      "type": null,
-      "rarity": "common",
-      "icon": "/cards/tesla.png",
-      "count": 349,
-      "usage_rate": 6.21,
-      "win_rate": 49
-    },
-    {
-      "id": 26000007,
-      "name": "Witch",
-      "key": "witch",
-      "elixir": 5,
-      "type": null,
-      "rarity": "epic",
-      "icon": "/cards/witch.png",
-      "count": 345,
-      "usage_rate": 6.14,
+      "count": 615,
+      "usage_rate": 7.96,
       "win_rate": 45
     },
     {
@@ -551,45 +383,69 @@
       "type": null,
       "rarity": "epic",
       "icon": "/cards/executioner.png",
-      "count": 340,
-      "usage_rate": 6.05,
-      "win_rate": 55
+      "count": 605,
+      "usage_rate": 7.83,
+      "win_rate": 50
     },
     {
-      "id": 27000002,
-      "name": "Mortar",
-      "key": "mortar",
-      "elixir": 4,
-      "type": null,
-      "rarity": "common",
-      "icon": "/cards/mortar.png",
-      "count": 334,
-      "usage_rate": 5.95,
-      "win_rate": 49
-    },
-    {
-      "id": 26000027,
-      "name": "Dark Prince",
-      "key": "dark-prince",
+      "id": 26000015,
+      "name": "Baby Dragon",
+      "key": "baby-dragon",
       "elixir": 4,
       "type": null,
       "rarity": "epic",
-      "icon": "/cards/dark-prince.png",
-      "count": 331,
-      "usage_rate": 5.89,
+      "icon": "/cards/baby-dragon.png",
+      "count": 594,
+      "usage_rate": 7.68,
+      "win_rate": 54
+    },
+    {
+      "id": 26000031,
+      "name": "Fire Spirit",
+      "key": "fire-spirit",
+      "elixir": 1,
+      "type": null,
+      "rarity": "common",
+      "icon": "/cards/fire-spirit.png",
+      "count": 593,
+      "usage_rate": 7.67,
+      "win_rate": 53
+    },
+    {
+      "id": 26000025,
+      "name": "Guards",
+      "key": "guards",
+      "elixir": 3,
+      "type": null,
+      "rarity": "epic",
+      "icon": "/cards/guards.png",
+      "count": 586,
+      "usage_rate": 7.58,
       "win_rate": 46
     },
     {
-      "id": 26000026,
-      "name": "Princess",
-      "key": "princess",
-      "elixir": 3,
+      "id": 28000003,
+      "name": "Rocket",
+      "key": "rocket",
+      "elixir": 6,
+      "type": null,
+      "rarity": "rare",
+      "icon": "/cards/rocket.png",
+      "count": 581,
+      "usage_rate": 7.52,
+      "win_rate": 56
+    },
+    {
+      "id": 26000062,
+      "name": "Magic Archer",
+      "key": "magic-archer",
+      "elixir": 4,
       "type": null,
       "rarity": "legendary",
-      "icon": "/cards/princess.png",
-      "count": 330,
-      "usage_rate": 5.88,
-      "win_rate": 45
+      "icon": "/cards/magic-archer.png",
+      "count": 502,
+      "usage_rate": 6.49,
+      "win_rate": 52
     },
     {
       "id": 28000005,
@@ -599,9 +455,153 @@
       "type": null,
       "rarity": "epic",
       "icon": "/cards/freeze.png",
-      "count": 316,
-      "usage_rate": 5.63,
-      "win_rate": 46
+      "count": 501,
+      "usage_rate": 6.48,
+      "win_rate": 51
+    },
+    {
+      "id": 28000016,
+      "name": "Heal Spirit",
+      "key": "heal-spirit",
+      "elixir": 1,
+      "type": null,
+      "rarity": "rare",
+      "icon": "/cards/heal-spirit.png",
+      "count": 500,
+      "usage_rate": 6.47,
+      "win_rate": 50
+    },
+    {
+      "id": 26000059,
+      "name": "Royal Hogs",
+      "key": "royal-hogs",
+      "elixir": 5,
+      "type": null,
+      "rarity": "rare",
+      "icon": "/cards/royal-hogs.png",
+      "count": 494,
+      "usage_rate": 6.39,
+      "win_rate": 59
+    },
+    {
+      "id": 28000014,
+      "name": "Earthquake",
+      "key": "earthquake",
+      "elixir": 3,
+      "type": null,
+      "rarity": "rare",
+      "icon": "/cards/earthquake.png",
+      "count": 488,
+      "usage_rate": 6.31,
+      "win_rate": 53
+    },
+    {
+      "id": 26000041,
+      "name": "Goblin Gang",
+      "key": "goblin-gang",
+      "elixir": 3,
+      "type": null,
+      "rarity": "common",
+      "icon": "/cards/goblin-gang.png",
+      "count": 487,
+      "usage_rate": 6.3,
+      "win_rate": 52
+    },
+    {
+      "id": 26000069,
+      "name": "Skeleton King",
+      "key": "skeleton-king",
+      "elixir": 4,
+      "type": null,
+      "rarity": "champion",
+      "icon": "/cards/skeleton-king.png",
+      "count": 486,
+      "usage_rate": 6.29,
+      "win_rate": 51
+    },
+    {
+      "id": 28000002,
+      "name": "Rage",
+      "key": "rage",
+      "elixir": 2,
+      "type": null,
+      "rarity": "epic",
+      "icon": "/cards/rage.png",
+      "count": 483,
+      "usage_rate": 6.25,
+      "win_rate": 48
+    },
+    {
+      "id": 26000097,
+      "name": "Suspicious Bush",
+      "key": "suspicious-bush",
+      "elixir": 2,
+      "type": null,
+      "rarity": "rare",
+      "icon": "/cards/suspicious-bush.png",
+      "count": 472,
+      "usage_rate": 6.11,
+      "win_rate": 52
+    },
+    {
+      "id": 26000007,
+      "name": "Witch",
+      "key": "witch",
+      "elixir": 5,
+      "type": null,
+      "rarity": "epic",
+      "icon": "/cards/witch.png",
+      "count": 458,
+      "usage_rate": 5.92,
+      "win_rate": 53
+    },
+    {
+      "id": 26000026,
+      "name": "Princess",
+      "key": "princess",
+      "elixir": 3,
+      "type": null,
+      "rarity": "legendary",
+      "icon": "/cards/princess.png",
+      "count": 457,
+      "usage_rate": 5.91,
+      "win_rate": 52
+    },
+    {
+      "id": 27000002,
+      "name": "Mortar",
+      "key": "mortar",
+      "elixir": 4,
+      "type": null,
+      "rarity": "common",
+      "icon": "/cards/mortar.png",
+      "count": 457,
+      "usage_rate": 5.91,
+      "win_rate": 52
+    },
+    {
+      "id": 26000103,
+      "name": "Boss Bandit",
+      "key": "boss-bandit",
+      "elixir": 6,
+      "type": null,
+      "rarity": "champion",
+      "icon": "/cards/boss-bandit.png",
+      "count": 424,
+      "usage_rate": 5.49,
+      "win_rate": 49
+    },
+    {
+      "id": 26000023,
+      "name": "Ice Wizard",
+      "key": "ice-wizard",
+      "elixir": 3,
+      "type": null,
+      "rarity": "legendary",
+      "icon": "/cards/ice-wizard.png",
+      "count": 416,
+      "usage_rate": 5.38,
+      "win_rate": 56
     }
   ],
   "top_decks": [
@@ -681,9 +681,9 @@
         }
       ],
       "avg_elixir": 2.6,
-      "count": 256,
-      "usage_rate": 4.56,
-      "win_rate": 66
+      "count": 251,
+      "usage_rate": 3.25,
+      "win_rate": 61
     },
     {
       "cards": [
@@ -761,9 +761,9 @@
         }
       ],
       "avg_elixir": 3.8,
-      "count": 163,
-      "usage_rate": 2.9,
-      "win_rate": 53
+      "count": 229,
+      "usage_rate": 2.96,
+      "win_rate": 59
     },
     {
       "cards": [
@@ -841,9 +841,9 @@
         }
       ],
       "avg_elixir": 2.9,
-      "count": 124,
-      "usage_rate": 2.21,
-      "win_rate": 54
+      "count": 206,
+      "usage_rate": 2.66,
+      "win_rate": 56
     },
     {
       "cards": [
@@ -921,8 +921,8 @@
         }
       ],
       "avg_elixir": 3.0,
-      "count": 114,
-      "usage_rate": 2.03,
+      "count": 174,
+      "usage_rate": 2.25,
       "win_rate": 64
     },
     {
@@ -1001,9 +1001,9 @@
         }
       ],
       "avg_elixir": 2.9,
-      "count": 113,
-      "usage_rate": 2.01,
-      "win_rate": 63
+      "count": 144,
+      "usage_rate": 1.86,
+      "win_rate": 54
     },
     {
       "cards": [
@@ -1081,248 +1081,8 @@
         }
       ],
       "avg_elixir": 2.9,
-      "count": 105,
-      "usage_rate": 1.87,
-      "win_rate": 55
-    },
-    {
-      "cards": [
-        {
-          "id": 27000000,
-          "name": "Cannon",
-          "key": "cannon",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/cannon.png"
-        },
-        {
-          "id": 26000040,
-          "name": "Dart Goblin",
-          "key": "dart-goblin",
-          "elixir": 3,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/dart-goblin.png"
-        },
-        {
-          "id": 26000031,
-          "name": "Fire Spirit",
-          "key": "fire-spirit",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/fire-spirit.png"
-        },
-        {
-          "id": 26000050,
-          "name": "Royal Ghost",
-          "key": "royal-ghost",
-          "elixir": 3,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/royal-ghost.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        },
-        {
-          "id": 26000097,
-          "name": "Suspicious Bush",
-          "key": "suspicious-bush",
-          "elixir": 2,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/suspicious-bush.png"
-        },
-        {
-          "id": 28000011,
-          "name": "The Log",
-          "key": "the-log",
-          "elixir": 2,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/the-log.png"
-        },
-        {
-          "id": 26000058,
-          "name": "Wall Breakers",
-          "key": "wall-breakers",
-          "elixir": 2,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/wall-breakers.png"
-        }
-      ],
-      "avg_elixir": 2.1,
-      "count": 103,
-      "usage_rate": 1.83,
-      "win_rate": 53
-    },
-    {
-      "cards": [
-        {
-          "id": 28000001,
-          "name": "Arrows",
-          "key": "arrows",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/arrows.png"
-        },
-        {
-          "id": 26000003,
-          "name": "Giant",
-          "key": "giant",
-          "elixir": 5,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/giant.png"
-        },
-        {
-          "id": 26000018,
-          "name": "Mini P.E.K.K.A",
-          "key": "mini-pekka",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/mini-pekka.png"
-        },
-        {
-          "id": 26000022,
-          "name": "Minion Horde",
-          "key": "minion-horde",
-          "elixir": 5,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minion-horde.png"
-        },
-        {
-          "id": 26000005,
-          "name": "Minions",
-          "key": "minions",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minions.png"
-        },
-        {
-          "id": 26000012,
-          "name": "Skeleton Army",
-          "key": "skeleton-army",
-          "elixir": 3,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/skeleton-army.png"
-        },
-        {
-          "id": 26000033,
-          "name": "Sparky",
-          "key": "sparky",
-          "elixir": 6,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/sparky.png"
-        },
-        {
-          "id": 28000008,
-          "name": "Zap",
-          "key": "zap",
-          "elixir": 2,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/zap.png"
-        }
-      ],
-      "avg_elixir": 3.9,
-      "count": 92,
-      "usage_rate": 1.64,
-      "win_rate": 62
-    },
-    {
-      "cards": [
-        {
-          "id": 26000027,
-          "name": "Dark Prince",
-          "key": "dark-prince",
-          "elixir": 4,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/dark-prince.png"
-        },
-        {
-          "id": 27000007,
-          "name": "Elixir Collector",
-          "key": "elixir-collector",
-          "elixir": 6,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/elixir-collector.png"
-        },
-        {
-          "id": 26000003,
-          "name": "Giant",
-          "key": "giant",
-          "elixir": 5,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/giant.png"
-        },
-        {
-          "id": 28000016,
-          "name": "Heal Spirit",
-          "key": "heal-spirit",
-          "elixir": 1,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/heal-spirit.png"
-        },
-        {
-          "id": 26000018,
-          "name": "Mini P.E.K.K.A",
-          "key": "mini-pekka",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/mini-pekka.png"
-        },
-        {
-          "id": 28000002,
-          "name": "Rage",
-          "key": "rage",
-          "elixir": 2,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/rage.png"
-        },
-        {
-          "id": 26000007,
-          "name": "Witch",
-          "key": "witch",
-          "elixir": 5,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/witch.png"
-        },
-        {
-          "id": 28000008,
-          "name": "Zap",
-          "key": "zap",
-          "elixir": 2,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/zap.png"
-        }
-      ],
-      "avg_elixir": 3.6,
-      "count": 84,
-      "usage_rate": 1.5,
+      "count": 144,
+      "usage_rate": 1.86,
       "win_rate": 54
     },
     {
@@ -1401,9 +1161,329 @@
         }
       ],
       "avg_elixir": 2.4,
-      "count": 67,
-      "usage_rate": 1.19,
+      "count": 116,
+      "usage_rate": 1.5,
+      "win_rate": 66
+    },
+    {
+      "cards": [
+        {
+          "id": 28000001,
+          "name": "Arrows",
+          "key": "arrows",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/arrows.png"
+        },
+        {
+          "id": 26000003,
+          "name": "Giant",
+          "key": "giant",
+          "elixir": 5,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/giant.png"
+        },
+        {
+          "id": 28000016,
+          "name": "Heal Spirit",
+          "key": "heal-spirit",
+          "elixir": 1,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/heal-spirit.png"
+        },
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        },
+        {
+          "id": 26000033,
+          "name": "Sparky",
+          "key": "sparky",
+          "elixir": 6,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/sparky.png"
+        },
+        {
+          "id": 28000012,
+          "name": "Tornado",
+          "key": "tornado",
+          "elixir": 3,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/tornado.png"
+        },
+        {
+          "id": 26000017,
+          "name": "Wizard",
+          "key": "wizard",
+          "elixir": 5,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/wizard.png"
+        },
+        {
+          "id": 28000008,
+          "name": "Zap",
+          "key": "zap",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/zap.png"
+        }
+      ],
+      "avg_elixir": 3.6,
+      "count": 104,
+      "usage_rate": 1.35,
+      "win_rate": 54
+    },
+    {
+      "cards": [
+        {
+          "id": 28000001,
+          "name": "Arrows",
+          "key": "arrows",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/arrows.png"
+        },
+        {
+          "id": 26000003,
+          "name": "Giant",
+          "key": "giant",
+          "elixir": 5,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/giant.png"
+        },
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        },
+        {
+          "id": 26000022,
+          "name": "Minion Horde",
+          "key": "minion-horde",
+          "elixir": 5,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minion-horde.png"
+        },
+        {
+          "id": 26000005,
+          "name": "Minions",
+          "key": "minions",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minions.png"
+        },
+        {
+          "id": 26000012,
+          "name": "Skeleton Army",
+          "key": "skeleton-army",
+          "elixir": 3,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/skeleton-army.png"
+        },
+        {
+          "id": 26000033,
+          "name": "Sparky",
+          "key": "sparky",
+          "elixir": 6,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/sparky.png"
+        },
+        {
+          "id": 28000008,
+          "name": "Zap",
+          "key": "zap",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/zap.png"
+        }
+      ],
+      "avg_elixir": 3.9,
+      "count": 96,
+      "usage_rate": 1.24,
+      "win_rate": 66
+    },
+    {
+      "cards": [
+        {
+          "id": 26000027,
+          "name": "Dark Prince",
+          "key": "dark-prince",
+          "elixir": 4,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/dark-prince.png"
+        },
+        {
+          "id": 27000007,
+          "name": "Elixir Collector",
+          "key": "elixir-collector",
+          "elixir": 6,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/elixir-collector.png"
+        },
+        {
+          "id": 26000003,
+          "name": "Giant",
+          "key": "giant",
+          "elixir": 5,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/giant.png"
+        },
+        {
+          "id": 28000016,
+          "name": "Heal Spirit",
+          "key": "heal-spirit",
+          "elixir": 1,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/heal-spirit.png"
+        },
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        },
+        {
+          "id": 28000002,
+          "name": "Rage",
+          "key": "rage",
+          "elixir": 2,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/rage.png"
+        },
+        {
+          "id": 26000007,
+          "name": "Witch",
+          "key": "witch",
+          "elixir": 5,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/witch.png"
+        },
+        {
+          "id": 28000008,
+          "name": "Zap",
+          "key": "zap",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/zap.png"
+        }
+      ],
+      "avg_elixir": 3.6,
+      "count": 87,
+      "usage_rate": 1.13,
       "win_rate": 57
+    },
+    {
+      "cards": [
+        {
+          "id": 27000000,
+          "name": "Cannon",
+          "key": "cannon",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/cannon.png"
+        },
+        {
+          "id": 26000040,
+          "name": "Dart Goblin",
+          "key": "dart-goblin",
+          "elixir": 3,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/dart-goblin.png"
+        },
+        {
+          "id": 26000031,
+          "name": "Fire Spirit",
+          "key": "fire-spirit",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/fire-spirit.png"
+        },
+        {
+          "id": 26000050,
+          "name": "Royal Ghost",
+          "key": "royal-ghost",
+          "elixir": 3,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/royal-ghost.png"
+        },
+        {
+          "id": 26000010,
+          "name": "Skeletons",
+          "key": "skeletons",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeletons.png"
+        },
+        {
+          "id": 26000097,
+          "name": "Suspicious Bush",
+          "key": "suspicious-bush",
+          "elixir": 2,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/suspicious-bush.png"
+        },
+        {
+          "id": 28000011,
+          "name": "The Log",
+          "key": "the-log",
+          "elixir": 2,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/the-log.png"
+        },
+        {
+          "id": 26000058,
+          "name": "Wall Breakers",
+          "key": "wall-breakers",
+          "elixir": 2,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/wall-breakers.png"
+        }
+      ],
+      "avg_elixir": 2.1,
+      "count": 86,
+      "usage_rate": 1.11,
+      "win_rate": 56
     },
     {
       "cards": [
@@ -1417,153 +1497,73 @@
           "icon": "/cards/barbarian-barrel.png"
         },
         {
-          "id": 28000000,
-          "name": "Fireball",
-          "key": "fireball",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/fireball.png"
-        },
-        {
-          "id": 26000061,
-          "name": "Fisherman",
-          "key": "fisherman",
-          "elixir": 3,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/fisherman.png"
-        },
-        {
-          "id": 26000024,
-          "name": "Royal Giant",
-          "key": "royal-giant",
-          "elixir": 6,
+          "id": 26000013,
+          "name": "Bomber",
+          "key": "bomber",
+          "elixir": 2,
           "type": null,
           "rarity": "common",
-          "icon": "/cards/royal-giant.png"
+          "icon": "/cards/bomber.png"
         },
         {
-          "id": 26000069,
-          "name": "Skeleton King",
-          "key": "skeleton-king",
-          "elixir": 4,
+          "id": 26000103,
+          "name": "Boss Bandit",
+          "key": "boss-bandit",
+          "elixir": 6,
           "type": null,
           "rarity": "champion",
-          "icon": "/cards/skeleton-king.png"
+          "icon": "/cards/boss-bandit.png"
         },
         {
-          "id": 27000009,
-          "name": "Tombstone",
-          "key": "tombstone",
-          "elixir": 3,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/tombstone.png"
-        },
-        {
-          "id": 26000007,
-          "name": "Witch",
-          "key": "witch",
+          "id": 26000045,
+          "name": "Executioner",
+          "key": "executioner",
           "elixir": 5,
           "type": null,
           "rarity": "epic",
-          "icon": "/cards/witch.png"
+          "icon": "/cards/executioner.png"
         },
         {
-          "id": 26000052,
-          "name": "Zappies",
-          "key": "zappies",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/zappies.png"
-        }
-      ],
-      "avg_elixir": 3.9,
-      "count": 58,
-      "usage_rate": 1.03,
-      "win_rate": 68
-    },
-    {
-      "cards": [
-        {
-          "id": 26000001,
-          "name": "Archers",
-          "key": "archers",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/archers.png"
-        },
-        {
-          "id": 26000084,
-          "name": "Electro Spirit",
-          "key": "electro-spirit",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/electro-spirit.png"
-        },
-        {
-          "id": 26000000,
-          "name": "Knight",
-          "key": "knight",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/knight.png"
-        },
-        {
-          "id": 28000003,
-          "name": "Rocket",
-          "key": "rocket",
-          "elixir": 6,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/rocket.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        },
-        {
-          "id": 27000006,
-          "name": "Tesla",
-          "key": "tesla",
-          "elixir": 4,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/tesla.png"
-        },
-        {
-          "id": 28000011,
-          "name": "The Log",
-          "key": "the-log",
+          "id": 28000017,
+          "name": "Giant Snowball",
+          "key": "giant-snowball",
           "elixir": 2,
           "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/the-log.png"
+          "rarity": "common",
+          "icon": "/cards/giant-snowball.png"
         },
         {
-          "id": 27000008,
-          "name": "X-Bow",
-          "key": "x-bow",
-          "elixir": 6,
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        },
+        {
+          "id": 26000051,
+          "name": "Ram Rider",
+          "key": "ram-rider",
+          "elixir": 5,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/ram-rider.png"
+        },
+        {
+          "id": 28000026,
+          "name": "Vines",
+          "key": "vines",
+          "elixir": 3,
           "type": null,
           "rarity": "epic",
-          "icon": "/cards/x-bow.png"
+          "icon": "/cards/vines.png"
         }
       ],
-      "avg_elixir": 3.2,
-      "count": 57,
-      "usage_rate": 1.01,
-      "win_rate": 67
+      "avg_elixir": 3.6,
+      "count": 84,
+      "usage_rate": 1.09,
+      "win_rate": 54
     }
   ],
   "top_synergies": [
@@ -1588,8 +1588,8 @@
           "icon": "/cards/the-log.png"
         }
       ],
-      "count": 1205,
-      "synergy_rate": 21.46
+      "count": 1415,
+      "synergy_rate": 18.31
     },
     {
       "cards": [
@@ -1612,8 +1612,8 @@
           "icon": "/cards/zap.png"
         }
       ],
-      "count": 943,
-      "synergy_rate": 16.79
+      "count": 1249,
+      "synergy_rate": 16.16
     },
     {
       "cards": [
@@ -1636,32 +1636,8 @@
           "icon": "/cards/mini-pekka.png"
         }
       ],
-      "count": 863,
-      "synergy_rate": 15.37
-    },
-    {
-      "cards": [
-        {
-          "id": 27000000,
-          "name": "Cannon",
-          "key": "cannon",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/cannon.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        }
-      ],
-      "count": 841,
-      "synergy_rate": 14.98
+      "count": 1122,
+      "synergy_rate": 14.51
     },
     {
       "cards": [
@@ -1684,8 +1660,8 @@
           "icon": "/cards/zap.png"
         }
       ],
-      "count": 771,
-      "synergy_rate": 13.73
+      "count": 1048,
+      "synergy_rate": 13.56
     },
     {
       "cards": [
@@ -1708,19 +1684,19 @@
           "icon": "/cards/the-log.png"
         }
       ],
-      "count": 712,
-      "synergy_rate": 12.68
+      "count": 966,
+      "synergy_rate": 12.5
     },
     {
       "cards": [
         {
-          "id": 26000030,
-          "name": "Ice Spirit",
-          "key": "ice-spirit",
-          "elixir": 1,
+          "id": 27000000,
+          "name": "Cannon",
+          "key": "cannon",
+          "elixir": 3,
           "type": null,
           "rarity": "common",
-          "icon": "/cards/ice-spirit.png"
+          "icon": "/cards/cannon.png"
         },
         {
           "id": 26000010,
@@ -1732,56 +1708,8 @@
           "icon": "/cards/skeletons.png"
         }
       ],
-      "count": 656,
-      "synergy_rate": 11.68
-    },
-    {
-      "cards": [
-        {
-          "id": 27000000,
-          "name": "Cannon",
-          "key": "cannon",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/cannon.png"
-        },
-        {
-          "id": 28000011,
-          "name": "The Log",
-          "key": "the-log",
-          "elixir": 2,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/the-log.png"
-        }
-      ],
-      "count": 653,
-      "synergy_rate": 11.63
-    },
-    {
-      "cards": [
-        {
-          "id": 27000000,
-          "name": "Cannon",
-          "key": "cannon",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/cannon.png"
-        },
-        {
-          "id": 26000030,
-          "name": "Ice Spirit",
-          "key": "ice-spirit",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/ice-spirit.png"
-        }
-      ],
-      "count": 651,
-      "synergy_rate": 11.59
+      "count": 923,
+      "synergy_rate": 11.94
     },
     {
       "cards": [
@@ -1804,8 +1732,128 @@
           "icon": "/cards/skeletons.png"
         }
       ],
-      "count": 640,
-      "synergy_rate": 11.4
+      "count": 914,
+      "synergy_rate": 11.82
+    },
+    {
+      "cards": [
+        {
+          "id": 28000001,
+          "name": "Arrows",
+          "key": "arrows",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/arrows.png"
+        },
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        }
+      ],
+      "count": 841,
+      "synergy_rate": 10.88
+    },
+    {
+      "cards": [
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        },
+        {
+          "id": 26000012,
+          "name": "Skeleton Army",
+          "key": "skeleton-army",
+          "elixir": 3,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/skeleton-army.png"
+        }
+      ],
+      "count": 800,
+      "synergy_rate": 10.35
+    },
+    {
+      "cards": [
+        {
+          "id": 26000030,
+          "name": "Ice Spirit",
+          "key": "ice-spirit",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/ice-spirit.png"
+        },
+        {
+          "id": 26000010,
+          "name": "Skeletons",
+          "key": "skeletons",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeletons.png"
+        }
+      ],
+      "count": 787,
+      "synergy_rate": 10.18
+    },
+    {
+      "cards": [
+        {
+          "id": 28000001,
+          "name": "Arrows",
+          "key": "arrows",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/arrows.png"
+        },
+        {
+          "id": 28000008,
+          "name": "Zap",
+          "key": "zap",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/zap.png"
+        }
+      ],
+      "count": 774,
+      "synergy_rate": 10.01
+    },
+    {
+      "cards": [
+        {
+          "id": 28000001,
+          "name": "Arrows",
+          "key": "arrows",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/arrows.png"
+        },
+        {
+          "id": 26000003,
+          "name": "Giant",
+          "key": "giant",
+          "elixir": 5,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/giant.png"
+        }
+      ],
+      "count": 762,
+      "synergy_rate": 9.86
     },
     {
       "cards": [
@@ -1828,8 +1876,56 @@
           "icon": "/cards/sparky.png"
         }
       ],
-      "count": 579,
-      "synergy_rate": 10.31
+      "count": 757,
+      "synergy_rate": 9.79
+    },
+    {
+      "cards": [
+        {
+          "id": 26000033,
+          "name": "Sparky",
+          "key": "sparky",
+          "elixir": 6,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/sparky.png"
+        },
+        {
+          "id": 28000008,
+          "name": "Zap",
+          "key": "zap",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/zap.png"
+        }
+      ],
+      "count": 749,
+      "synergy_rate": 9.69
+    },
+    {
+      "cards": [
+        {
+          "id": 26000003,
+          "name": "Giant",
+          "key": "giant",
+          "elixir": 5,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/giant.png"
+        },
+        {
+          "id": 26000033,
+          "name": "Sparky",
+          "key": "sparky",
+          "elixir": 6,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/sparky.png"
+        }
+      ],
+      "count": 745,
+      "synergy_rate": 9.64
     },
     {
       "cards": [
@@ -1852,176 +1948,8 @@
           "icon": "/cards/skeletons.png"
         }
       ],
-      "count": 561,
-      "synergy_rate": 9.99
-    },
-    {
-      "cards": [
-        {
-          "id": 26000003,
-          "name": "Giant",
-          "key": "giant",
-          "elixir": 5,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/giant.png"
-        },
-        {
-          "id": 26000033,
-          "name": "Sparky",
-          "key": "sparky",
-          "elixir": 6,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/sparky.png"
-        }
-      ],
-      "count": 553,
-      "synergy_rate": 9.85
-    },
-    {
-      "cards": [
-        {
-          "id": 26000018,
-          "name": "Mini P.E.K.K.A",
-          "key": "mini-pekka",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/mini-pekka.png"
-        },
-        {
-          "id": 26000012,
-          "name": "Skeleton Army",
-          "key": "skeleton-army",
-          "elixir": 3,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/skeleton-army.png"
-        }
-      ],
-      "count": 544,
-      "synergy_rate": 9.69
-    },
-    {
-      "cards": [
-        {
-          "id": 28000001,
-          "name": "Arrows",
-          "key": "arrows",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/arrows.png"
-        },
-        {
-          "id": 28000008,
-          "name": "Zap",
-          "key": "zap",
-          "elixir": 2,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/zap.png"
-        }
-      ],
-      "count": 543,
-      "synergy_rate": 9.67
-    },
-    {
-      "cards": [
-        {
-          "id": 26000033,
-          "name": "Sparky",
-          "key": "sparky",
-          "elixir": 6,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/sparky.png"
-        },
-        {
-          "id": 28000008,
-          "name": "Zap",
-          "key": "zap",
-          "elixir": 2,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/zap.png"
-        }
-      ],
-      "count": 537,
-      "synergy_rate": 9.56
-    },
-    {
-      "cards": [
-        {
-          "id": 28000001,
-          "name": "Arrows",
-          "key": "arrows",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/arrows.png"
-        },
-        {
-          "id": 26000003,
-          "name": "Giant",
-          "key": "giant",
-          "elixir": 5,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/giant.png"
-        }
-      ],
-      "count": 528,
-      "synergy_rate": 9.4
-    },
-    {
-      "cards": [
-        {
-          "id": 26000003,
-          "name": "Giant",
-          "key": "giant",
-          "elixir": 5,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/giant.png"
-        },
-        {
-          "id": 26000012,
-          "name": "Skeleton Army",
-          "key": "skeleton-army",
-          "elixir": 3,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/skeleton-army.png"
-        }
-      ],
-      "count": 520,
-      "synergy_rate": 9.26
-    },
-    {
-      "cards": [
-        {
-          "id": 28000001,
-          "name": "Arrows",
-          "key": "arrows",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/arrows.png"
-        },
-        {
-          "id": 26000018,
-          "name": "Mini P.E.K.K.A",
-          "key": "mini-pekka",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/mini-pekka.png"
-        }
-      ],
-      "count": 518,
-      "synergy_rate": 9.22
+      "count": 744,
+      "synergy_rate": 9.62
     },
     {
       "cards": [
@@ -2044,56 +1972,32 @@
           "icon": "/cards/skeletons.png"
         }
       ],
-      "count": 513,
-      "synergy_rate": 9.13
+      "count": 739,
+      "synergy_rate": 9.56
     },
     {
       "cards": [
         {
-          "id": 28000001,
-          "name": "Arrows",
-          "key": "arrows",
+          "id": 27000000,
+          "name": "Cannon",
+          "key": "cannon",
           "elixir": 3,
           "type": null,
           "rarity": "common",
-          "icon": "/cards/arrows.png"
+          "icon": "/cards/cannon.png"
         },
         {
-          "id": 26000005,
-          "name": "Minions",
-          "key": "minions",
-          "elixir": 3,
+          "id": 26000030,
+          "name": "Ice Spirit",
+          "key": "ice-spirit",
+          "elixir": 1,
           "type": null,
           "rarity": "common",
-          "icon": "/cards/minions.png"
+          "icon": "/cards/ice-spirit.png"
         }
       ],
-      "count": 504,
-      "synergy_rate": 8.97
-    },
-    {
-      "cards": [
-        {
-          "id": 28000000,
-          "name": "Fireball",
-          "key": "fireball",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/fireball.png"
-        },
-        {
-          "id": 28000011,
-          "name": "The Log",
-          "key": "the-log",
-          "elixir": 2,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/the-log.png"
-        }
-      ],
-      "count": 494,
-      "synergy_rate": 8.8
+      "count": 730,
+      "synergy_rate": 9.44
     },
     {
       "cards": [
@@ -2116,200 +2020,8 @@
           "icon": "/cards/skeleton-barrel.png"
         }
       ],
-      "count": 480,
-      "synergy_rate": 8.55
-    },
-    {
-      "cards": [
-        {
-          "id": 26000038,
-          "name": "Ice Golem",
-          "key": "ice-golem",
-          "elixir": 2,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/ice-golem.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        }
-      ],
-      "count": 469,
-      "synergy_rate": 8.35
-    },
-    {
-      "cards": [
-        {
-          "id": 26000012,
-          "name": "Skeleton Army",
-          "key": "skeleton-army",
-          "elixir": 3,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/skeleton-army.png"
-        },
-        {
-          "id": 26000033,
-          "name": "Sparky",
-          "key": "sparky",
-          "elixir": 6,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/sparky.png"
-        }
-      ],
-      "count": 465,
-      "synergy_rate": 8.28
-    },
-    {
-      "cards": [
-        {
-          "id": 26000021,
-          "name": "Hog Rider",
-          "key": "hog-rider",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/hog-rider.png"
-        },
-        {
-          "id": 28000011,
-          "name": "The Log",
-          "key": "the-log",
-          "elixir": 2,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/the-log.png"
-        }
-      ],
-      "count": 450,
-      "synergy_rate": 8.01
-    },
-    {
-      "cards": [
-        {
-          "id": 28000001,
-          "name": "Arrows",
-          "key": "arrows",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/arrows.png"
-        },
-        {
-          "id": 26000033,
-          "name": "Sparky",
-          "key": "sparky",
-          "elixir": 6,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/sparky.png"
-        }
-      ],
-      "count": 441,
-      "synergy_rate": 7.85
-    },
-    {
-      "cards": [
-        {
-          "id": 26000014,
-          "name": "Musketeer",
-          "key": "musketeer",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/musketeer.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        }
-      ],
-      "count": 439,
-      "synergy_rate": 7.82
-    },
-    {
-      "cards": [
-        {
-          "id": 28000001,
-          "name": "Arrows",
-          "key": "arrows",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/arrows.png"
-        },
-        {
-          "id": 26000012,
-          "name": "Skeleton Army",
-          "key": "skeleton-army",
-          "elixir": 3,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/skeleton-army.png"
-        }
-      ],
-      "count": 438,
-      "synergy_rate": 7.8
-    },
-    {
-      "cards": [
-        {
-          "id": 26000038,
-          "name": "Ice Golem",
-          "key": "ice-golem",
-          "elixir": 2,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/ice-golem.png"
-        },
-        {
-          "id": 26000014,
-          "name": "Musketeer",
-          "key": "musketeer",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/musketeer.png"
-        }
-      ],
-      "count": 434,
-      "synergy_rate": 7.73
-    },
-    {
-      "cards": [
-        {
-          "id": 26000005,
-          "name": "Minions",
-          "key": "minions",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minions.png"
-        },
-        {
-          "id": 28000008,
-          "name": "Zap",
-          "key": "zap",
-          "elixir": 2,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/zap.png"
-        }
-      ],
-      "count": 427,
-      "synergy_rate": 7.6
+      "count": 711,
+      "synergy_rate": 9.2
     },
     {
       "cards": [
@@ -2332,104 +2044,8 @@
           "icon": "/cards/skeletons.png"
         }
       ],
-      "count": 422,
-      "synergy_rate": 7.51
-    },
-    {
-      "cards": [
-        {
-          "id": 26000012,
-          "name": "Skeleton Army",
-          "key": "skeleton-army",
-          "elixir": 3,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/skeleton-army.png"
-        },
-        {
-          "id": 28000008,
-          "name": "Zap",
-          "key": "zap",
-          "elixir": 2,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/zap.png"
-        }
-      ],
-      "count": 418,
-      "synergy_rate": 7.44
-    },
-    {
-      "cards": [
-        {
-          "id": 26000021,
-          "name": "Hog Rider",
-          "key": "hog-rider",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/hog-rider.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        }
-      ],
-      "count": 413,
-      "synergy_rate": 7.35
-    },
-    {
-      "cards": [
-        {
-          "id": 28000001,
-          "name": "Arrows",
-          "key": "arrows",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/arrows.png"
-        },
-        {
-          "id": 26000022,
-          "name": "Minion Horde",
-          "key": "minion-horde",
-          "elixir": 5,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minion-horde.png"
-        }
-      ],
-      "count": 413,
-      "synergy_rate": 7.35
-    },
-    {
-      "cards": [
-        {
-          "id": 26000000,
-          "name": "Knight",
-          "key": "knight",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/knight.png"
-        },
-        {
-          "id": 28000011,
-          "name": "The Log",
-          "key": "the-log",
-          "elixir": 2,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/the-log.png"
-        }
-      ],
-      "count": 403,
-      "synergy_rate": 7.18
+      "count": 703,
+      "synergy_rate": 9.09
     },
     {
       "cards": [
@@ -2443,30 +2059,6 @@
           "icon": "/cards/cannon.png"
         },
         {
-          "id": 26000021,
-          "name": "Hog Rider",
-          "key": "hog-rider",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/hog-rider.png"
-        }
-      ],
-      "count": 394,
-      "synergy_rate": 7.02
-    },
-    {
-      "cards": [
-        {
-          "id": 26000084,
-          "name": "Electro Spirit",
-          "key": "electro-spirit",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/electro-spirit.png"
-        },
-        {
           "id": 28000011,
           "name": "The Log",
           "key": "the-log",
@@ -2476,104 +2068,8 @@
           "icon": "/cards/the-log.png"
         }
       ],
-      "count": 391,
-      "synergy_rate": 6.96
-    },
-    {
-      "cards": [
-        {
-          "id": 26000018,
-          "name": "Mini P.E.K.K.A",
-          "key": "mini-pekka",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/mini-pekka.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        }
-      ],
-      "count": 388,
-      "synergy_rate": 6.91
-    },
-    {
-      "cards": [
-        {
-          "id": 26000022,
-          "name": "Minion Horde",
-          "key": "minion-horde",
-          "elixir": 5,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minion-horde.png"
-        },
-        {
-          "id": 26000012,
-          "name": "Skeleton Army",
-          "key": "skeleton-army",
-          "elixir": 3,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/skeleton-army.png"
-        }
-      ],
-      "count": 386,
-      "synergy_rate": 6.87
-    },
-    {
-      "cards": [
-        {
-          "id": 26000018,
-          "name": "Mini P.E.K.K.A",
-          "key": "mini-pekka",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/mini-pekka.png"
-        },
-        {
-          "id": 26000005,
-          "name": "Minions",
-          "key": "minions",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minions.png"
-        }
-      ],
-      "count": 385,
-      "synergy_rate": 6.86
-    },
-    {
-      "cards": [
-        {
-          "id": 26000022,
-          "name": "Minion Horde",
-          "key": "minion-horde",
-          "elixir": 5,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minion-horde.png"
-        },
-        {
-          "id": 28000008,
-          "name": "Zap",
-          "key": "zap",
-          "elixir": 2,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/zap.png"
-        }
-      ],
-      "count": 382,
-      "synergy_rate": 6.8
+      "count": 692,
+      "synergy_rate": 8.95
     },
     {
       "cards": [
@@ -2587,6 +2083,54 @@
           "icon": "/cards/fireball.png"
         },
         {
+          "id": 28000011,
+          "name": "The Log",
+          "key": "the-log",
+          "elixir": 2,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/the-log.png"
+        }
+      ],
+      "count": 652,
+      "synergy_rate": 8.43
+    },
+    {
+      "cards": [
+        {
+          "id": 26000003,
+          "name": "Giant",
+          "key": "giant",
+          "elixir": 5,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/giant.png"
+        },
+        {
+          "id": 26000012,
+          "name": "Skeleton Army",
+          "key": "skeleton-army",
+          "elixir": 3,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/skeleton-army.png"
+        }
+      ],
+      "count": 641,
+      "synergy_rate": 8.29
+    },
+    {
+      "cards": [
+        {
+          "id": 28000001,
+          "name": "Arrows",
+          "key": "arrows",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/arrows.png"
+        },
+        {
           "id": 26000005,
           "name": "Minions",
           "key": "minions",
@@ -2596,8 +2140,56 @@
           "icon": "/cards/minions.png"
         }
       ],
-      "count": 373,
-      "synergy_rate": 6.64
+      "count": 626,
+      "synergy_rate": 8.1
+    },
+    {
+      "cards": [
+        {
+          "id": 28000001,
+          "name": "Arrows",
+          "key": "arrows",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/arrows.png"
+        },
+        {
+          "id": 26000033,
+          "name": "Sparky",
+          "key": "sparky",
+          "elixir": 6,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/sparky.png"
+        }
+      ],
+      "count": 615,
+      "synergy_rate": 7.96
+    },
+    {
+      "cards": [
+        {
+          "id": 28000001,
+          "name": "Arrows",
+          "key": "arrows",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/arrows.png"
+        },
+        {
+          "id": 26000012,
+          "name": "Skeleton Army",
+          "key": "skeleton-army",
+          "elixir": 3,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/skeleton-army.png"
+        }
+      ],
+      "count": 614,
+      "synergy_rate": 7.94
     },
     {
       "cards": [
@@ -2620,104 +2212,8 @@
           "icon": "/cards/vines.png"
         }
       ],
-      "count": 373,
-      "synergy_rate": 6.64
-    },
-    {
-      "cards": [
-        {
-          "id": 26000003,
-          "name": "Giant",
-          "key": "giant",
-          "elixir": 5,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/giant.png"
-        },
-        {
-          "id": 26000022,
-          "name": "Minion Horde",
-          "key": "minion-horde",
-          "elixir": 5,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minion-horde.png"
-        }
-      ],
-      "count": 357,
-      "synergy_rate": 6.36
-    },
-    {
-      "cards": [
-        {
-          "id": 26000018,
-          "name": "Mini P.E.K.K.A",
-          "key": "mini-pekka",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/mini-pekka.png"
-        },
-        {
-          "id": 26000022,
-          "name": "Minion Horde",
-          "key": "minion-horde",
-          "elixir": 5,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minion-horde.png"
-        }
-      ],
-      "count": 354,
-      "synergy_rate": 6.3
-    },
-    {
-      "cards": [
-        {
-          "id": 26000005,
-          "name": "Minions",
-          "key": "minions",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minions.png"
-        },
-        {
-          "id": 26000056,
-          "name": "Skeleton Barrel",
-          "key": "skeleton-barrel",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeleton-barrel.png"
-        }
-      ],
-      "count": 353,
-      "synergy_rate": 6.29
-    },
-    {
-      "cards": [
-        {
-          "id": 26000021,
-          "name": "Hog Rider",
-          "key": "hog-rider",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/hog-rider.png"
-        },
-        {
-          "id": 26000030,
-          "name": "Ice Spirit",
-          "key": "ice-spirit",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/ice-spirit.png"
-        }
-      ],
-      "count": 353,
-      "synergy_rate": 6.29
+      "count": 582,
+      "synergy_rate": 7.53
     },
     {
       "cards": [
@@ -2740,8 +2236,8 @@
           "icon": "/cards/fireball.png"
         }
       ],
-      "count": 346,
-      "synergy_rate": 6.16
+      "count": 564,
+      "synergy_rate": 7.3
     },
     {
       "cards": [
@@ -2755,6 +2251,141 @@
           "icon": "/cards/hog-rider.png"
         },
         {
+          "id": 28000011,
+          "name": "The Log",
+          "key": "the-log",
+          "elixir": 2,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/the-log.png"
+        }
+      ],
+      "count": 561,
+      "synergy_rate": 7.26
+    },
+    {
+      "cards": [
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        },
+        {
+          "id": 26000010,
+          "name": "Skeletons",
+          "key": "skeletons",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeletons.png"
+        }
+      ],
+      "count": 560,
+      "synergy_rate": 7.24
+    },
+    {
+      "cards": [
+        {
+          "id": 26000012,
+          "name": "Skeleton Army",
+          "key": "skeleton-army",
+          "elixir": 3,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/skeleton-army.png"
+        },
+        {
+          "id": 26000033,
+          "name": "Sparky",
+          "key": "sparky",
+          "elixir": 6,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/sparky.png"
+        }
+      ],
+      "count": 556,
+      "synergy_rate": 7.19
+    },
+    {
+      "cards": [
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        },
+        {
+          "id": 28000011,
+          "name": "The Log",
+          "key": "the-log",
+          "elixir": 2,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/the-log.png"
+        }
+      ],
+      "count": 548,
+      "synergy_rate": 7.09
+    },
+    {
+      "cards": [
+        {
+          "id": 26000040,
+          "name": "Dart Goblin",
+          "key": "dart-goblin",
+          "elixir": 3,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/dart-goblin.png"
+        },
+        {
+          "id": 26000058,
+          "name": "Wall Breakers",
+          "key": "wall-breakers",
+          "elixir": 2,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/wall-breakers.png"
+        }
+      ],
+      "count": 542,
+      "synergy_rate": 7.01
+    },
+    {
+      "cards": [
+        {
+          "id": 26000012,
+          "name": "Skeleton Army",
+          "key": "skeleton-army",
+          "elixir": 3,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/skeleton-army.png"
+        },
+        {
+          "id": 28000008,
+          "name": "Zap",
+          "key": "zap",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/zap.png"
+        }
+      ],
+      "count": 537,
+      "synergy_rate": 6.95
+    },
+    {
+      "cards": [
+        {
           "id": 26000038,
           "name": "Ice Golem",
           "key": "ice-golem",
@@ -2762,10 +2393,331 @@
           "type": null,
           "rarity": "rare",
           "icon": "/cards/ice-golem.png"
+        },
+        {
+          "id": 26000010,
+          "name": "Skeletons",
+          "key": "skeletons",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeletons.png"
         }
       ],
-      "count": 346,
-      "synergy_rate": 6.16
+      "count": 531,
+      "synergy_rate": 6.87
+    },
+    {
+      "cards": [
+        {
+          "id": 26000014,
+          "name": "Musketeer",
+          "key": "musketeer",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/musketeer.png"
+        },
+        {
+          "id": 26000010,
+          "name": "Skeletons",
+          "key": "skeletons",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeletons.png"
+        }
+      ],
+      "count": 526,
+      "synergy_rate": 6.8
+    },
+    {
+      "cards": [
+        {
+          "id": 26000000,
+          "name": "Knight",
+          "key": "knight",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/knight.png"
+        },
+        {
+          "id": 28000011,
+          "name": "The Log",
+          "key": "the-log",
+          "elixir": 2,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/the-log.png"
+        }
+      ],
+      "count": 519,
+      "synergy_rate": 6.71
+    },
+    {
+      "cards": [
+        {
+          "id": 28000015,
+          "name": "Barbarian Barrel",
+          "key": "barbarian-barrel",
+          "elixir": 2,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/barbarian-barrel.png"
+        },
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        }
+      ],
+      "count": 518,
+      "synergy_rate": 6.7
+    },
+    {
+      "cards": [
+        {
+          "id": 26000084,
+          "name": "Electro Spirit",
+          "key": "electro-spirit",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/electro-spirit.png"
+        },
+        {
+          "id": 28000011,
+          "name": "The Log",
+          "key": "the-log",
+          "elixir": 2,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/the-log.png"
+        }
+      ],
+      "count": 515,
+      "synergy_rate": 6.66
+    },
+    {
+      "cards": [
+        {
+          "id": 26000022,
+          "name": "Minion Horde",
+          "key": "minion-horde",
+          "elixir": 5,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minion-horde.png"
+        },
+        {
+          "id": 28000008,
+          "name": "Zap",
+          "key": "zap",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/zap.png"
+        }
+      ],
+      "count": 514,
+      "synergy_rate": 6.65
+    },
+    {
+      "cards": [
+        {
+          "id": 26000022,
+          "name": "Minion Horde",
+          "key": "minion-horde",
+          "elixir": 5,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minion-horde.png"
+        },
+        {
+          "id": 26000012,
+          "name": "Skeleton Army",
+          "key": "skeleton-army",
+          "elixir": 3,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/skeleton-army.png"
+        }
+      ],
+      "count": 513,
+      "synergy_rate": 6.64
+    },
+    {
+      "cards": [
+        {
+          "id": 26000005,
+          "name": "Minions",
+          "key": "minions",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minions.png"
+        },
+        {
+          "id": 28000008,
+          "name": "Zap",
+          "key": "zap",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/zap.png"
+        }
+      ],
+      "count": 507,
+      "synergy_rate": 6.56
+    },
+    {
+      "cards": [
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        },
+        {
+          "id": 26000005,
+          "name": "Minions",
+          "key": "minions",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minions.png"
+        }
+      ],
+      "count": 503,
+      "synergy_rate": 6.51
+    },
+    {
+      "cards": [
+        {
+          "id": 26000021,
+          "name": "Hog Rider",
+          "key": "hog-rider",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/hog-rider.png"
+        },
+        {
+          "id": 26000010,
+          "name": "Skeletons",
+          "key": "skeletons",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeletons.png"
+        }
+      ],
+      "count": 503,
+      "synergy_rate": 6.51
+    },
+    {
+      "cards": [
+        {
+          "id": 28000000,
+          "name": "Fireball",
+          "key": "fireball",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/fireball.png"
+        },
+        {
+          "id": 26000005,
+          "name": "Minions",
+          "key": "minions",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minions.png"
+        }
+      ],
+      "count": 493,
+      "synergy_rate": 6.38
+    },
+    {
+      "cards": [
+        {
+          "id": 28000001,
+          "name": "Arrows",
+          "key": "arrows",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/arrows.png"
+        },
+        {
+          "id": 26000022,
+          "name": "Minion Horde",
+          "key": "minion-horde",
+          "elixir": 5,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minion-horde.png"
+        }
+      ],
+      "count": 491,
+      "synergy_rate": 6.35
+    },
+    {
+      "cards": [
+        {
+          "id": 26000040,
+          "name": "Dart Goblin",
+          "key": "dart-goblin",
+          "elixir": 3,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/dart-goblin.png"
+        },
+        {
+          "id": 28000011,
+          "name": "The Log",
+          "key": "the-log",
+          "elixir": 2,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/the-log.png"
+        }
+      ],
+      "count": 484,
+      "synergy_rate": 6.26
+    },
+    {
+      "cards": [
+        {
+          "id": 26000003,
+          "name": "Giant",
+          "key": "giant",
+          "elixir": 5,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/giant.png"
+        },
+        {
+          "id": 26000022,
+          "name": "Minion Horde",
+          "key": "minion-horde",
+          "elixir": 5,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minion-horde.png"
+        }
+      ],
+      "count": 478,
+      "synergy_rate": 6.18
     },
     {
       "cards": [
@@ -2788,416 +2740,8 @@
           "icon": "/cards/mini-pekka.png"
         }
       ],
-      "count": 344,
-      "synergy_rate": 6.13
-    },
-    {
-      "cards": [
-        {
-          "id": 28000017,
-          "name": "Giant Snowball",
-          "key": "giant-snowball",
-          "elixir": 2,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/giant-snowball.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        }
-      ],
-      "count": 340,
-      "synergy_rate": 6.05
-    },
-    {
-      "cards": [
-        {
-          "id": 28000014,
-          "name": "Earthquake",
-          "key": "earthquake",
-          "elixir": 3,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/earthquake.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        }
-      ],
-      "count": 334,
-      "synergy_rate": 5.95
-    },
-    {
-      "cards": [
-        {
-          "id": 26000022,
-          "name": "Minion Horde",
-          "key": "minion-horde",
-          "elixir": 5,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minion-horde.png"
-        },
-        {
-          "id": 26000033,
-          "name": "Sparky",
-          "key": "sparky",
-          "elixir": 6,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/sparky.png"
-        }
-      ],
-      "count": 333,
-      "synergy_rate": 5.93
-    },
-    {
-      "cards": [
-        {
-          "id": 26000040,
-          "name": "Dart Goblin",
-          "key": "dart-goblin",
-          "elixir": 3,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/dart-goblin.png"
-        },
-        {
-          "id": 26000058,
-          "name": "Wall Breakers",
-          "key": "wall-breakers",
-          "elixir": 2,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/wall-breakers.png"
-        }
-      ],
-      "count": 331,
-      "synergy_rate": 5.89
-    },
-    {
-      "cards": [
-        {
-          "id": 26000018,
-          "name": "Mini P.E.K.K.A",
-          "key": "mini-pekka",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/mini-pekka.png"
-        },
-        {
-          "id": 28000011,
-          "name": "The Log",
-          "key": "the-log",
-          "elixir": 2,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/the-log.png"
-        }
-      ],
-      "count": 325,
-      "synergy_rate": 5.79
-    },
-    {
-      "cards": [
-        {
-          "id": 26000003,
-          "name": "Giant",
-          "key": "giant",
-          "elixir": 5,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/giant.png"
-        },
-        {
-          "id": 26000005,
-          "name": "Minions",
-          "key": "minions",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minions.png"
-        }
-      ],
-      "count": 323,
-      "synergy_rate": 5.75
-    },
-    {
-      "cards": [
-        {
-          "id": 26000018,
-          "name": "Mini P.E.K.K.A",
-          "key": "mini-pekka",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/mini-pekka.png"
-        },
-        {
-          "id": 28000002,
-          "name": "Rage",
-          "key": "rage",
-          "elixir": 2,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/rage.png"
-        }
-      ],
-      "count": 321,
-      "synergy_rate": 5.72
-    },
-    {
-      "cards": [
-        {
-          "id": 28000000,
-          "name": "Fireball",
-          "key": "fireball",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/fireball.png"
-        },
-        {
-          "id": 26000014,
-          "name": "Musketeer",
-          "key": "musketeer",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/musketeer.png"
-        }
-      ],
-      "count": 319,
-      "synergy_rate": 5.68
-    },
-    {
-      "cards": [
-        {
-          "id": 27000006,
-          "name": "Tesla",
-          "key": "tesla",
-          "elixir": 4,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/tesla.png"
-        },
-        {
-          "id": 28000011,
-          "name": "The Log",
-          "key": "the-log",
-          "elixir": 2,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/the-log.png"
-        }
-      ],
-      "count": 317,
-      "synergy_rate": 5.64
-    },
-    {
-      "cards": [
-        {
-          "id": 28000000,
-          "name": "Fireball",
-          "key": "fireball",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/fireball.png"
-        },
-        {
-          "id": 26000038,
-          "name": "Ice Golem",
-          "key": "ice-golem",
-          "elixir": 2,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/ice-golem.png"
-        }
-      ],
-      "count": 315,
-      "synergy_rate": 5.61
-    },
-    {
-      "cards": [
-        {
-          "id": 26000040,
-          "name": "Dart Goblin",
-          "key": "dart-goblin",
-          "elixir": 3,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/dart-goblin.png"
-        },
-        {
-          "id": 28000011,
-          "name": "The Log",
-          "key": "the-log",
-          "elixir": 2,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/the-log.png"
-        }
-      ],
-      "count": 315,
-      "synergy_rate": 5.61
-    },
-    {
-      "cards": [
-        {
-          "id": 26000040,
-          "name": "Dart Goblin",
-          "key": "dart-goblin",
-          "elixir": 3,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/dart-goblin.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        }
-      ],
-      "count": 314,
-      "synergy_rate": 5.59
-    },
-    {
-      "cards": [
-        {
-          "id": 28000001,
-          "name": "Arrows",
-          "key": "arrows",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/arrows.png"
-        },
-        {
-          "id": 26000049,
-          "name": "Bats",
-          "key": "bats",
-          "elixir": 2,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/bats.png"
-        }
-      ],
-      "count": 313,
-      "synergy_rate": 5.57
-    },
-    {
-      "cards": [
-        {
-          "id": 26000038,
-          "name": "Ice Golem",
-          "key": "ice-golem",
-          "elixir": 2,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/ice-golem.png"
-        },
-        {
-          "id": 28000011,
-          "name": "The Log",
-          "key": "the-log",
-          "elixir": 2,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/the-log.png"
-        }
-      ],
-      "count": 309,
-      "synergy_rate": 5.5
-    },
-    {
-      "cards": [
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        },
-        {
-          "id": 27000006,
-          "name": "Tesla",
-          "key": "tesla",
-          "elixir": 4,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/tesla.png"
-        }
-      ],
-      "count": 307,
-      "synergy_rate": 5.47
-    },
-    {
-      "cards": [
-        {
-          "id": 27000000,
-          "name": "Cannon",
-          "key": "cannon",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/cannon.png"
-        },
-        {
-          "id": 28000014,
-          "name": "Earthquake",
-          "key": "earthquake",
-          "elixir": 3,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/earthquake.png"
-        }
-      ],
-      "count": 305,
-      "synergy_rate": 5.43
-    },
-    {
-      "cards": [
-        {
-          "id": 26000059,
-          "name": "Royal Hogs",
-          "key": "royal-hogs",
-          "elixir": 5,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/royal-hogs.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        }
-      ],
-      "count": 303,
-      "synergy_rate": 5.4
+      "count": 472,
+      "synergy_rate": 6.11
     },
     {
       "cards": [
@@ -3220,32 +2764,152 @@
           "icon": "/cards/suspicious-bush.png"
         }
       ],
-      "count": 302,
-      "synergy_rate": 5.38
+      "count": 472,
+      "synergy_rate": 6.11
     },
     {
       "cards": [
         {
-          "id": 28000003,
-          "name": "Rocket",
-          "key": "rocket",
-          "elixir": 6,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/rocket.png"
-        },
-        {
-          "id": 28000011,
-          "name": "The Log",
-          "key": "the-log",
+          "id": 26000038,
+          "name": "Ice Golem",
+          "key": "ice-golem",
           "elixir": 2,
           "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/the-log.png"
+          "rarity": "rare",
+          "icon": "/cards/ice-golem.png"
+        },
+        {
+          "id": 26000014,
+          "name": "Musketeer",
+          "key": "musketeer",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/musketeer.png"
         }
       ],
-      "count": 295,
-      "synergy_rate": 5.25
+      "count": 467,
+      "synergy_rate": 6.04
+    },
+    {
+      "cards": [
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        },
+        {
+          "id": 26000022,
+          "name": "Minion Horde",
+          "key": "minion-horde",
+          "elixir": 5,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minion-horde.png"
+        }
+      ],
+      "count": 466,
+      "synergy_rate": 6.03
+    },
+    {
+      "cards": [
+        {
+          "id": 26000005,
+          "name": "Minions",
+          "key": "minions",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minions.png"
+        },
+        {
+          "id": 26000056,
+          "name": "Skeleton Barrel",
+          "key": "skeleton-barrel",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeleton-barrel.png"
+        }
+      ],
+      "count": 459,
+      "synergy_rate": 5.94
+    },
+    {
+      "cards": [
+        {
+          "id": 26000022,
+          "name": "Minion Horde",
+          "key": "minion-horde",
+          "elixir": 5,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minion-horde.png"
+        },
+        {
+          "id": 26000033,
+          "name": "Sparky",
+          "key": "sparky",
+          "elixir": 6,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/sparky.png"
+        }
+      ],
+      "count": 454,
+      "synergy_rate": 5.87
+    },
+    {
+      "cards": [
+        {
+          "id": 26000021,
+          "name": "Hog Rider",
+          "key": "hog-rider",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/hog-rider.png"
+        },
+        {
+          "id": 26000030,
+          "name": "Ice Spirit",
+          "key": "ice-spirit",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/ice-spirit.png"
+        }
+      ],
+      "count": 453,
+      "synergy_rate": 5.86
+    },
+    {
+      "cards": [
+        {
+          "id": 28000014,
+          "name": "Earthquake",
+          "key": "earthquake",
+          "elixir": 3,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/earthquake.png"
+        },
+        {
+          "id": 26000010,
+          "name": "Skeletons",
+          "key": "skeletons",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeletons.png"
+        }
+      ],
+      "count": 433,
+      "synergy_rate": 5.6
     },
     {
       "cards": [
@@ -3268,152 +2932,8 @@
           "icon": "/cards/zap.png"
         }
       ],
-      "count": 294,
-      "synergy_rate": 5.24
-    },
-    {
-      "cards": [
-        {
-          "id": 26000032,
-          "name": "Miner",
-          "key": "miner",
-          "elixir": 3,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/miner.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        }
-      ],
-      "count": 291,
-      "synergy_rate": 5.18
-    },
-    {
-      "cards": [
-        {
-          "id": 28000014,
-          "name": "Earthquake",
-          "key": "earthquake",
-          "elixir": 3,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/earthquake.png"
-        },
-        {
-          "id": 26000030,
-          "name": "Ice Spirit",
-          "key": "ice-spirit",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/ice-spirit.png"
-        }
-      ],
-      "count": 289,
-      "synergy_rate": 5.15
-    },
-    {
-      "cards": [
-        {
-          "id": 28000000,
-          "name": "Fireball",
-          "key": "fireball",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/fireball.png"
-        },
-        {
-          "id": 28000008,
-          "name": "Zap",
-          "key": "zap",
-          "elixir": 2,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/zap.png"
-        }
-      ],
-      "count": 288,
-      "synergy_rate": 5.13
-    },
-    {
-      "cards": [
-        {
-          "id": 26000030,
-          "name": "Ice Spirit",
-          "key": "ice-spirit",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/ice-spirit.png"
-        },
-        {
-          "id": 26000014,
-          "name": "Musketeer",
-          "key": "musketeer",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/musketeer.png"
-        }
-      ],
-      "count": 288,
-      "synergy_rate": 5.13
-    },
-    {
-      "cards": [
-        {
-          "id": 26000000,
-          "name": "Knight",
-          "key": "knight",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/knight.png"
-        },
-        {
-          "id": 27000006,
-          "name": "Tesla",
-          "key": "tesla",
-          "elixir": 4,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/tesla.png"
-        }
-      ],
-      "count": 287,
-      "synergy_rate": 5.11
-    },
-    {
-      "cards": [
-        {
-          "id": 26000018,
-          "name": "Mini P.E.K.K.A",
-          "key": "mini-pekka",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/mini-pekka.png"
-        },
-        {
-          "id": 26000007,
-          "name": "Witch",
-          "key": "witch",
-          "elixir": 5,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/witch.png"
-        }
-      ],
-      "count": 287,
-      "synergy_rate": 5.11
+      "count": 430,
+      "synergy_rate": 5.56
     },
     {
       "cards": [
@@ -3427,30 +2947,6 @@
           "icon": "/cards/cannon.png"
         },
         {
-          "id": 26000014,
-          "name": "Musketeer",
-          "key": "musketeer",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/musketeer.png"
-        }
-      ],
-      "count": 287,
-      "synergy_rate": 5.11
-    },
-    {
-      "cards": [
-        {
-          "id": 28000000,
-          "name": "Fireball",
-          "key": "fireball",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/fireball.png"
-        },
-        {
           "id": 26000021,
           "name": "Hog Rider",
           "key": "hog-rider",
@@ -3460,56 +2956,56 @@
           "icon": "/cards/hog-rider.png"
         }
       ],
-      "count": 287,
-      "synergy_rate": 5.11
+      "count": 430,
+      "synergy_rate": 5.56
     },
     {
       "cards": [
         {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
+          "id": 26000084,
+          "name": "Electro Spirit",
+          "key": "electro-spirit",
           "elixir": 1,
           "type": null,
           "rarity": "common",
-          "icon": "/cards/skeletons.png"
+          "icon": "/cards/electro-spirit.png"
         },
         {
-          "id": 27000008,
-          "name": "X-Bow",
-          "key": "x-bow",
-          "elixir": 6,
+          "id": 28000000,
+          "name": "Fireball",
+          "key": "fireball",
+          "elixir": 4,
           "type": null,
-          "rarity": "epic",
-          "icon": "/cards/x-bow.png"
+          "rarity": "rare",
+          "icon": "/cards/fireball.png"
         }
       ],
-      "count": 285,
-      "synergy_rate": 5.07
+      "count": 415,
+      "synergy_rate": 5.37
     },
     {
       "cards": [
         {
-          "id": 28000011,
-          "name": "The Log",
-          "key": "the-log",
-          "elixir": 2,
+          "id": 28000001,
+          "name": "Arrows",
+          "key": "arrows",
+          "elixir": 3,
           "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/the-log.png"
+          "rarity": "common",
+          "icon": "/cards/arrows.png"
         },
         {
-          "id": 27000008,
-          "name": "X-Bow",
-          "key": "x-bow",
-          "elixir": 6,
+          "id": 26000049,
+          "name": "Bats",
+          "key": "bats",
+          "elixir": 2,
           "type": null,
-          "rarity": "epic",
-          "icon": "/cards/x-bow.png"
+          "rarity": "common",
+          "icon": "/cards/bats.png"
         }
       ],
-      "count": 283,
-      "synergy_rate": 5.04
+      "count": 415,
+      "synergy_rate": 5.37
     },
     {
       "cards": [
@@ -3532,91 +3028,19 @@
           "icon": "/cards/tornado.png"
         }
       ],
-      "count": 281,
-      "synergy_rate": 5.0
+      "count": 413,
+      "synergy_rate": 5.34
     },
     {
       "cards": [
         {
-          "id": 26000005,
-          "name": "Minions",
-          "key": "minions",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minions.png"
-        },
-        {
-          "id": 26000012,
-          "name": "Skeleton Army",
-          "key": "skeleton-army",
-          "elixir": 3,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/skeleton-army.png"
-        }
-      ],
-      "count": 281,
-      "synergy_rate": 5.0
-    },
-    {
-      "cards": [
-        {
-          "id": 26000038,
-          "name": "Ice Golem",
-          "key": "ice-golem",
+          "id": 28000017,
+          "name": "Giant Snowball",
+          "key": "giant-snowball",
           "elixir": 2,
           "type": null,
-          "rarity": "rare",
-          "icon": "/cards/ice-golem.png"
-        },
-        {
-          "id": 26000030,
-          "name": "Ice Spirit",
-          "key": "ice-spirit",
-          "elixir": 1,
-          "type": null,
           "rarity": "common",
-          "icon": "/cards/ice-spirit.png"
-        }
-      ],
-      "count": 280,
-      "synergy_rate": 4.99
-    },
-    {
-      "cards": [
-        {
-          "id": 26000031,
-          "name": "Fire Spirit",
-          "key": "fire-spirit",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/fire-spirit.png"
-        },
-        {
-          "id": 28000011,
-          "name": "The Log",
-          "key": "the-log",
-          "elixir": 2,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/the-log.png"
-        }
-      ],
-      "count": 278,
-      "synergy_rate": 4.95
-    },
-    {
-      "cards": [
-        {
-          "id": 26000005,
-          "name": "Minions",
-          "key": "minions",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/minions.png"
+          "icon": "/cards/giant-snowball.png"
         },
         {
           "id": 26000010,
@@ -3628,8 +3052,8 @@
           "icon": "/cards/skeletons.png"
         }
       ],
-      "count": 274,
-      "synergy_rate": 4.88
+      "count": 407,
+      "synergy_rate": 5.27
     },
     {
       "cards": [
@@ -3641,126 +3065,6 @@
           "type": null,
           "rarity": "rare",
           "icon": "/cards/fireball.png"
-        },
-        {
-          "id": 26000030,
-          "name": "Ice Spirit",
-          "key": "ice-spirit",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/ice-spirit.png"
-        }
-      ],
-      "count": 270,
-      "synergy_rate": 4.81
-    },
-    {
-      "cards": [
-        {
-          "id": 26000050,
-          "name": "Royal Ghost",
-          "key": "royal-ghost",
-          "elixir": 3,
-          "type": null,
-          "rarity": "legendary",
-          "icon": "/cards/royal-ghost.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        }
-      ],
-      "count": 269,
-      "synergy_rate": 4.79
-    },
-    {
-      "cards": [
-        {
-          "id": 27000000,
-          "name": "Cannon",
-          "key": "cannon",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/cannon.png"
-        },
-        {
-          "id": 28000000,
-          "name": "Fireball",
-          "key": "fireball",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/fireball.png"
-        }
-      ],
-      "count": 269,
-      "synergy_rate": 4.79
-    },
-    {
-      "cards": [
-        {
-          "id": 26000027,
-          "name": "Dark Prince",
-          "key": "dark-prince",
-          "elixir": 4,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/dark-prince.png"
-        },
-        {
-          "id": 26000018,
-          "name": "Mini P.E.K.K.A",
-          "key": "mini-pekka",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/mini-pekka.png"
-        }
-      ],
-      "count": 267,
-      "synergy_rate": 4.75
-    },
-    {
-      "cards": [
-        {
-          "id": 27000002,
-          "name": "Mortar",
-          "key": "mortar",
-          "elixir": 4,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/mortar.png"
-        },
-        {
-          "id": 26000056,
-          "name": "Skeleton Barrel",
-          "key": "skeleton-barrel",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeleton-barrel.png"
-        }
-      ],
-      "count": 266,
-      "synergy_rate": 4.74
-    },
-    {
-      "cards": [
-        {
-          "id": 26000084,
-          "name": "Electro Spirit",
-          "key": "electro-spirit",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/electro-spirit.png"
         },
         {
           "id": 26000000,
@@ -3772,8 +3076,272 @@
           "icon": "/cards/knight.png"
         }
       ],
-      "count": 265,
-      "synergy_rate": 4.72
+      "count": 406,
+      "synergy_rate": 5.25
+    },
+    {
+      "cards": [
+        {
+          "id": 26000005,
+          "name": "Minions",
+          "key": "minions",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minions.png"
+        },
+        {
+          "id": 26000010,
+          "name": "Skeletons",
+          "key": "skeletons",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeletons.png"
+        }
+      ],
+      "count": 400,
+      "synergy_rate": 5.17
+    },
+    {
+      "cards": [
+        {
+          "id": 26000003,
+          "name": "Giant",
+          "key": "giant",
+          "elixir": 5,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/giant.png"
+        },
+        {
+          "id": 26000005,
+          "name": "Minions",
+          "key": "minions",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minions.png"
+        }
+      ],
+      "count": 398,
+      "synergy_rate": 5.15
+    },
+    {
+      "cards": [
+        {
+          "id": 26000021,
+          "name": "Hog Rider",
+          "key": "hog-rider",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/hog-rider.png"
+        },
+        {
+          "id": 26000038,
+          "name": "Ice Golem",
+          "key": "ice-golem",
+          "elixir": 2,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/ice-golem.png"
+        }
+      ],
+      "count": 395,
+      "synergy_rate": 5.11
+    },
+    {
+      "cards": [
+        {
+          "id": 26000049,
+          "name": "Bats",
+          "key": "bats",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/bats.png"
+        },
+        {
+          "id": 28000008,
+          "name": "Zap",
+          "key": "zap",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/zap.png"
+        }
+      ],
+      "count": 394,
+      "synergy_rate": 5.1
+    },
+    {
+      "cards": [
+        {
+          "id": 26000049,
+          "name": "Bats",
+          "key": "bats",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/bats.png"
+        },
+        {
+          "id": 26000003,
+          "name": "Giant",
+          "key": "giant",
+          "elixir": 5,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/giant.png"
+        }
+      ],
+      "count": 392,
+      "synergy_rate": 5.07
+    },
+    {
+      "cards": [
+        {
+          "id": 26000010,
+          "name": "Skeletons",
+          "key": "skeletons",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeletons.png"
+        },
+        {
+          "id": 27000008,
+          "name": "X-Bow",
+          "key": "x-bow",
+          "elixir": 6,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/x-bow.png"
+        }
+      ],
+      "count": 391,
+      "synergy_rate": 5.06
+    },
+    {
+      "cards": [
+        {
+          "id": 28000011,
+          "name": "The Log",
+          "key": "the-log",
+          "elixir": 2,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/the-log.png"
+        },
+        {
+          "id": 27000008,
+          "name": "X-Bow",
+          "key": "x-bow",
+          "elixir": 6,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/x-bow.png"
+        }
+      ],
+      "count": 391,
+      "synergy_rate": 5.06
+    },
+    {
+      "cards": [
+        {
+          "id": 26000059,
+          "name": "Royal Hogs",
+          "key": "royal-hogs",
+          "elixir": 5,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/royal-hogs.png"
+        },
+        {
+          "id": 26000010,
+          "name": "Skeletons",
+          "key": "skeletons",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeletons.png"
+        }
+      ],
+      "count": 390,
+      "synergy_rate": 5.05
+    },
+    {
+      "cards": [
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        },
+        {
+          "id": 26000007,
+          "name": "Witch",
+          "key": "witch",
+          "elixir": 5,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/witch.png"
+        }
+      ],
+      "count": 383,
+      "synergy_rate": 4.95
+    },
+    {
+      "cards": [
+        {
+          "id": 26000040,
+          "name": "Dart Goblin",
+          "key": "dart-goblin",
+          "elixir": 3,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/dart-goblin.png"
+        },
+        {
+          "id": 26000010,
+          "name": "Skeletons",
+          "key": "skeletons",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeletons.png"
+        }
+      ],
+      "count": 381,
+      "synergy_rate": 4.93
+    },
+    {
+      "cards": [
+        {
+          "id": 27000006,
+          "name": "Tesla",
+          "key": "tesla",
+          "elixir": 4,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/tesla.png"
+        },
+        {
+          "id": 28000011,
+          "name": "The Log",
+          "key": "the-log",
+          "elixir": 2,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/the-log.png"
+        }
+      ],
+      "count": 380,
+      "synergy_rate": 4.92
     },
     {
       "cards": [
@@ -3796,32 +3364,56 @@
           "icon": "/cards/mini-pekka.png"
         }
       ],
-      "count": 263,
-      "synergy_rate": 4.68
+      "count": 377,
+      "synergy_rate": 4.88
     },
     {
       "cards": [
         {
-          "id": 26000030,
-          "name": "Ice Spirit",
-          "key": "ice-spirit",
-          "elixir": 1,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/ice-spirit.png"
-        },
-        {
-          "id": 26000018,
-          "name": "Mini P.E.K.K.A",
-          "key": "mini-pekka",
+          "id": 26000015,
+          "name": "Baby Dragon",
+          "key": "baby-dragon",
           "elixir": 4,
           "type": null,
-          "rarity": "rare",
-          "icon": "/cards/mini-pekka.png"
+          "rarity": "epic",
+          "icon": "/cards/baby-dragon.png"
+        },
+        {
+          "id": 28000015,
+          "name": "Barbarian Barrel",
+          "key": "barbarian-barrel",
+          "elixir": 2,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/barbarian-barrel.png"
         }
       ],
-      "count": 261,
-      "synergy_rate": 4.65
+      "count": 373,
+      "synergy_rate": 4.83
+    },
+    {
+      "cards": [
+        {
+          "id": 28000003,
+          "name": "Rocket",
+          "key": "rocket",
+          "elixir": 6,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/rocket.png"
+        },
+        {
+          "id": 28000011,
+          "name": "The Log",
+          "key": "the-log",
+          "elixir": 2,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/the-log.png"
+        }
+      ],
+      "count": 372,
+      "synergy_rate": 4.81
     },
     {
       "cards": [
@@ -3844,67 +3436,19 @@
           "icon": "/cards/fire-spirit.png"
         }
       ],
-      "count": 261,
-      "synergy_rate": 4.65
+      "count": 369,
+      "synergy_rate": 4.77
     },
     {
       "cards": [
         {
-          "id": 26000056,
-          "name": "Skeleton Barrel",
-          "key": "skeleton-barrel",
-          "elixir": 3,
-          "type": null,
-          "rarity": "common",
-          "icon": "/cards/skeleton-barrel.png"
-        },
-        {
-          "id": 26000058,
-          "name": "Wall Breakers",
-          "key": "wall-breakers",
-          "elixir": 2,
-          "type": null,
-          "rarity": "epic",
-          "icon": "/cards/wall-breakers.png"
-        }
-      ],
-      "count": 259,
-      "synergy_rate": 4.61
-    },
-    {
-      "cards": [
-        {
-          "id": 28000003,
-          "name": "Rocket",
-          "key": "rocket",
-          "elixir": 6,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/rocket.png"
-        },
-        {
-          "id": 26000010,
-          "name": "Skeletons",
-          "key": "skeletons",
+          "id": 26000031,
+          "name": "Fire Spirit",
+          "key": "fire-spirit",
           "elixir": 1,
           "type": null,
           "rarity": "common",
-          "icon": "/cards/skeletons.png"
-        }
-      ],
-      "count": 258,
-      "synergy_rate": 4.59
-    },
-    {
-      "cards": [
-        {
-          "id": 26000014,
-          "name": "Musketeer",
-          "key": "musketeer",
-          "elixir": 4,
-          "type": null,
-          "rarity": "rare",
-          "icon": "/cards/musketeer.png"
+          "icon": "/cards/fire-spirit.png"
         },
         {
           "id": 28000011,
@@ -3916,8 +3460,272 @@
           "icon": "/cards/the-log.png"
         }
       ],
-      "count": 258,
-      "synergy_rate": 4.59
+      "count": 368,
+      "synergy_rate": 4.76
+    },
+    {
+      "cards": [
+        {
+          "id": 28000014,
+          "name": "Earthquake",
+          "key": "earthquake",
+          "elixir": 3,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/earthquake.png"
+        },
+        {
+          "id": 26000030,
+          "name": "Ice Spirit",
+          "key": "ice-spirit",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/ice-spirit.png"
+        }
+      ],
+      "count": 365,
+      "synergy_rate": 4.72
+    },
+    {
+      "cards": [
+        {
+          "id": 26000005,
+          "name": "Minions",
+          "key": "minions",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minions.png"
+        },
+        {
+          "id": 27000002,
+          "name": "Mortar",
+          "key": "mortar",
+          "elixir": 4,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/mortar.png"
+        }
+      ],
+      "count": 365,
+      "synergy_rate": 4.72
+    },
+    {
+      "cards": [
+        {
+          "id": 26000030,
+          "name": "Ice Spirit",
+          "key": "ice-spirit",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/ice-spirit.png"
+        },
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        }
+      ],
+      "count": 364,
+      "synergy_rate": 4.71
+    },
+    {
+      "cards": [
+        {
+          "id": 26000010,
+          "name": "Skeletons",
+          "key": "skeletons",
+          "elixir": 1,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeletons.png"
+        },
+        {
+          "id": 27000006,
+          "name": "Tesla",
+          "key": "tesla",
+          "elixir": 4,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/tesla.png"
+        }
+      ],
+      "count": 363,
+      "synergy_rate": 4.7
+    },
+    {
+      "cards": [
+        {
+          "id": 26000049,
+          "name": "Bats",
+          "key": "bats",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/bats.png"
+        },
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        }
+      ],
+      "count": 361,
+      "synergy_rate": 4.67
+    },
+    {
+      "cards": [
+        {
+          "id": 26000038,
+          "name": "Ice Golem",
+          "key": "ice-golem",
+          "elixir": 2,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/ice-golem.png"
+        },
+        {
+          "id": 28000011,
+          "name": "The Log",
+          "key": "the-log",
+          "elixir": 2,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/the-log.png"
+        }
+      ],
+      "count": 359,
+      "synergy_rate": 4.64
+    },
+    {
+      "cards": [
+        {
+          "id": 26000049,
+          "name": "Bats",
+          "key": "bats",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/bats.png"
+        },
+        {
+          "id": 26000012,
+          "name": "Skeleton Army",
+          "key": "skeleton-army",
+          "elixir": 3,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/skeleton-army.png"
+        }
+      ],
+      "count": 359,
+      "synergy_rate": 4.64
+    },
+    {
+      "cards": [
+        {
+          "id": 28000015,
+          "name": "Barbarian Barrel",
+          "key": "barbarian-barrel",
+          "elixir": 2,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/barbarian-barrel.png"
+        },
+        {
+          "id": 26000050,
+          "name": "Royal Ghost",
+          "key": "royal-ghost",
+          "elixir": 3,
+          "type": null,
+          "rarity": "legendary",
+          "icon": "/cards/royal-ghost.png"
+        }
+      ],
+      "count": 359,
+      "synergy_rate": 4.64
+    },
+    {
+      "cards": [
+        {
+          "id": 26000005,
+          "name": "Minions",
+          "key": "minions",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minions.png"
+        },
+        {
+          "id": 26000012,
+          "name": "Skeleton Army",
+          "key": "skeleton-army",
+          "elixir": 3,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/skeleton-army.png"
+        }
+      ],
+      "count": 358,
+      "synergy_rate": 4.63
+    },
+    {
+      "cards": [
+        {
+          "id": 28000015,
+          "name": "Barbarian Barrel",
+          "key": "barbarian-barrel",
+          "elixir": 2,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/barbarian-barrel.png"
+        },
+        {
+          "id": 26000005,
+          "name": "Minions",
+          "key": "minions",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/minions.png"
+        }
+      ],
+      "count": 356,
+      "synergy_rate": 4.61
+    },
+    {
+      "cards": [
+        {
+          "id": 26000000,
+          "name": "Knight",
+          "key": "knight",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/knight.png"
+        },
+        {
+          "id": 27000006,
+          "name": "Tesla",
+          "key": "tesla",
+          "elixir": 4,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/tesla.png"
+        }
+      ],
+      "count": 356,
+      "synergy_rate": 4.61
     },
     {
       "cards": [
@@ -3931,136 +3739,336 @@
           "icon": "/cards/cannon.png"
         },
         {
-          "id": 26000038,
-          "name": "Ice Golem",
-          "key": "ice-golem",
-          "elixir": 2,
+          "id": 28000014,
+          "name": "Earthquake",
+          "key": "earthquake",
+          "elixir": 3,
           "type": null,
           "rarity": "rare",
-          "icon": "/cards/ice-golem.png"
+          "icon": "/cards/earthquake.png"
         }
       ],
-      "count": 257,
-      "synergy_rate": 4.58
+      "count": 355,
+      "synergy_rate": 4.59
     },
     {
       "cards": [
         {
-          "id": 26000021,
-          "name": "Hog Rider",
-          "key": "hog-rider",
+          "id": 26000015,
+          "name": "Baby Dragon",
+          "key": "baby-dragon",
           "elixir": 4,
           "type": null,
-          "rarity": "rare",
-          "icon": "/cards/hog-rider.png"
+          "rarity": "epic",
+          "icon": "/cards/baby-dragon.png"
         },
         {
-          "id": 26000014,
-          "name": "Musketeer",
-          "key": "musketeer",
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
           "elixir": 4,
           "type": null,
           "rarity": "rare",
-          "icon": "/cards/musketeer.png"
+          "icon": "/cards/mini-pekka.png"
         }
       ],
-      "count": 256,
-      "synergy_rate": 4.56
+      "count": 352,
+      "synergy_rate": 4.55
+    },
+    {
+      "cards": [
+        {
+          "id": 26000040,
+          "name": "Dart Goblin",
+          "key": "dart-goblin",
+          "elixir": 3,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/dart-goblin.png"
+        },
+        {
+          "id": 28000000,
+          "name": "Fireball",
+          "key": "fireball",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/fireball.png"
+        }
+      ],
+      "count": 350,
+      "synergy_rate": 4.53
+    },
+    {
+      "cards": [
+        {
+          "id": 28000000,
+          "name": "Fireball",
+          "key": "fireball",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/fireball.png"
+        },
+        {
+          "id": 28000008,
+          "name": "Zap",
+          "key": "zap",
+          "elixir": 2,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/zap.png"
+        }
+      ],
+      "count": 348,
+      "synergy_rate": 4.5
+    },
+    {
+      "cards": [
+        {
+          "id": 26000009,
+          "name": "Golem",
+          "key": "golem",
+          "elixir": 8,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/golem.png"
+        },
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        }
+      ],
+      "count": 347,
+      "synergy_rate": 4.49
+    },
+    {
+      "cards": [
+        {
+          "id": 27000002,
+          "name": "Mortar",
+          "key": "mortar",
+          "elixir": 4,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/mortar.png"
+        },
+        {
+          "id": 26000056,
+          "name": "Skeleton Barrel",
+          "key": "skeleton-barrel",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeleton-barrel.png"
+        }
+      ],
+      "count": 342,
+      "synergy_rate": 4.42
+    },
+    {
+      "cards": [
+        {
+          "id": 28000015,
+          "name": "Barbarian Barrel",
+          "key": "barbarian-barrel",
+          "elixir": 2,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/barbarian-barrel.png"
+        },
+        {
+          "id": 28000026,
+          "name": "Vines",
+          "key": "vines",
+          "elixir": 3,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/vines.png"
+        }
+      ],
+      "count": 340,
+      "synergy_rate": 4.4
+    },
+    {
+      "cards": [
+        {
+          "id": 26000018,
+          "name": "Mini P.E.K.K.A",
+          "key": "mini-pekka",
+          "elixir": 4,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/mini-pekka.png"
+        },
+        {
+          "id": 28000002,
+          "name": "Rage",
+          "key": "rage",
+          "elixir": 2,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/rage.png"
+        }
+      ],
+      "count": 334,
+      "synergy_rate": 4.32
+    },
+    {
+      "cards": [
+        {
+          "id": 28000015,
+          "name": "Barbarian Barrel",
+          "key": "barbarian-barrel",
+          "elixir": 2,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/barbarian-barrel.png"
+        },
+        {
+          "id": 26000056,
+          "name": "Skeleton Barrel",
+          "key": "skeleton-barrel",
+          "elixir": 3,
+          "type": null,
+          "rarity": "common",
+          "icon": "/cards/skeleton-barrel.png"
+        }
+      ],
+      "count": 333,
+      "synergy_rate": 4.31
+    },
+    {
+      "cards": [
+        {
+          "id": 26000040,
+          "name": "Dart Goblin",
+          "key": "dart-goblin",
+          "elixir": 3,
+          "type": null,
+          "rarity": "rare",
+          "icon": "/cards/dart-goblin.png"
+        },
+        {
+          "id": 26000012,
+          "name": "Skeleton Army",
+          "key": "skeleton-army",
+          "elixir": 3,
+          "type": null,
+          "rarity": "epic",
+          "icon": "/cards/skeleton-army.png"
+        }
+      ],
+      "count": 333,
+      "synergy_rate": 4.31
     }
   ],
   "archetypes": [
     {
       "name": "Beatdown",
-      "count": 1927,
-      "share": 34.31
+      "count": 2671,
+      "share": 34.55
     },
     {
       "name": "Cycle",
-      "count": 1372,
-      "share": 24.43
+      "count": 1872,
+      "share": 24.22
     },
     {
       "name": "Control",
-      "count": 1209,
-      "share": 21.53
+      "count": 1655,
+      "share": 21.41
     },
     {
       "name": "Siege",
-      "count": 619,
-      "share": 11.02
+      "count": 848,
+      "share": 10.97
     },
     {
       "name": "Unknown",
-      "count": 249,
-      "share": 4.43
-    },
-    {
-      "name": "Air",
-      "count": 106,
-      "share": 1.89
+      "count": 371,
+      "share": 4.8
     },
     {
       "name": "Bridge Spam",
-      "count": 104,
-      "share": 1.85
+      "count": 190,
+      "share": 2.46
+    },
+    {
+      "name": "Air",
+      "count": 118,
+      "share": 1.53
     },
     {
       "name": "Three Musketeers",
-      "count": 30,
-      "share": 0.53
+      "count": 5,
+      "share": 0.06
     }
   ],
   "player_locations": [
     {
       "id": "International",
-      "value": 58
+      "value": 68
     },
     {
       "id": "US",
-      "value": 20
+      "value": 22
     },
     {
       "id": "DE",
-      "value": 12
+      "value": 16
     },
     {
       "id": "FR",
-      "value": 12
-    },
-    {
-      "id": "IT",
-      "value": 7
-    },
-    {
-      "id": "RU",
-      "value": 6
-    },
-    {
-      "id": "North America",
-      "value": 6
+      "value": 13
     },
     {
       "id": "NL",
-      "value": 6
+      "value": 10
+    },
+    {
+      "id": "IT",
+      "value": 9
+    },
+    {
+      "id": "RU",
+      "value": 8
     },
     {
       "id": "BR",
-      "value": 5
+      "value": 7
     },
     {
-      "id": "TR",
-      "value": 5
+      "id": "JP",
+      "value": 7
     },
     {
-      "id": "ES",
-      "value": 4
+      "id": "North America",
+      "value": 7
     },
     {
-      "id": "IR",
-      "value": 4
+      "id": "MX",
+      "value": 7
     },
     {
       "id": "SA",
+      "value": 6
+    },
+    {
+      "id": "TR",
+      "value": 6
+    },
+    {
+      "id": "ES",
+      "value": 5
+    },
+    {
+      "id": "IR",
       "value": 4
     },
     {
@@ -4069,22 +4077,50 @@
     },
     {
       "id": "CL",
+      "value": 4
+    },
+    {
+      "id": "AU",
       "value": 3
+    },
+    {
+      "id": "CA",
+      "value": 3
+    },
+    {
+      "id": "RO",
+      "value": 3
+    },
+    {
+      "id": "GB",
+      "value": 3
+    },
+    {
+      "id": "DO",
+      "value": 3
+    },
+    {
+      "id": "RS",
+      "value": 2
     },
     {
       "id": "KR",
       "value": 2
     },
     {
-      "id": "AU",
+      "id": "VE",
       "value": 2
     },
     {
-      "id": "JP",
+      "id": "AT",
       "value": 2
     },
     {
-      "id": "DO",
+      "id": "IQ",
+      "value": 2
+    },
+    {
+      "id": "NI",
       "value": 2
     },
     {
@@ -4092,11 +4128,11 @@
       "value": 2
     },
     {
-      "id": "GB",
+      "id": "LB",
       "value": 2
     },
     {
-      "id": "RS",
+      "id": "ID",
       "value": 1
     },
     {
@@ -4104,11 +4140,11 @@
       "value": 1
     },
     {
-      "id": "MX",
+      "id": "PE",
       "value": 1
     },
     {
-      "id": "VE",
+      "id": "HN",
       "value": 1
     },
     {
@@ -4116,27 +4152,11 @@
       "value": 1
     },
     {
-      "id": "RO",
-      "value": 1
-    },
-    {
-      "id": "CA",
-      "value": 1
-    },
-    {
-      "id": "PE",
-      "value": 1
-    },
-    {
       "id": "AE",
       "value": 1
     },
     {
-      "id": "NI",
-      "value": 1
-    },
-    {
-      "id": "GR",
+      "id": "CO",
       "value": 1
     },
     {
@@ -4144,15 +4164,11 @@
       "value": 1
     },
     {
+      "id": "IL",
+      "value": 1
+    },
+    {
       "id": "HU",
-      "value": 1
-    },
-    {
-      "id": "GT",
-      "value": 1
-    },
-    {
-      "id": "SV",
       "value": 1
     },
     {
@@ -4160,7 +4176,11 @@
       "value": 1
     },
     {
-      "id": "JO",
+      "id": "BE",
+      "value": 1
+    },
+    {
+      "id": "SV",
       "value": 1
     },
     {
@@ -4170,166 +4190,195 @@
     {
       "id": "NO",
       "value": 1
+    },
+    {
+      "id": "JO",
+      "value": 1
     }
   ],
   "regional_archetypes": {
     "DE": {
-      "Beatdown": 156,
-      "Control": 70,
-      "Cycle": 60,
+      "Beatdown": 214,
+      "Control": 128,
+      "Cycle": 84,
       "Siege": 2
     },
-    "FR": {
-      "Beatdown": 98,
-      "Control": 75,
-      "Siege": 53,
-      "Cycle": 31
-    },
     "International": {
-      "Beatdown": 484,
-      "Control": 393,
-      "Cycle": 373,
-      "Siege": 260,
-      "Bridge Spam": 27
+      "Beatdown": 601,
+      "Control": 439,
+      "Cycle": 411,
+      "Siege": 333,
+      "Air": 18,
+      "Bridge Spam": 5
+    },
+    "NL": {
+      "Control": 81,
+      "Siege": 56,
+      "Beatdown": 47,
+      "Cycle": 46
+    },
+    "ID": {
+      "Siege": 30
     },
     "IT": {
-      "Beatdown": 90,
-      "Cycle": 60,
-      "Bridge Spam": 29,
-      "Control": 1
-    },
-    "RS": {
-      "Beatdown": 30
+      "Cycle": 90,
+      "Beatdown": 89,
+      "Control": 30,
+      "Bridge Spam": 29
     },
     "US": {
-      "Beatdown": 159,
-      "Cycle": 145,
-      "Control": 104,
-      "Siege": 96,
-      "Air": 30
+      "Beatdown": 204,
+      "Cycle": 170,
+      "Control": 131,
+      "Siege": 95
+    },
+    "RS": {
+      "Beatdown": 57
+    },
+    "FR": {
+      "Control": 103,
+      "Beatdown": 98,
+      "Siege": 55,
+      "Cycle": 31
     },
     "AZ": {
       "Beatdown": 30
     },
+    "BR": {
+      "Control": 68,
+      "Cycle": 64,
+      "Bridge Spam": 38,
+      "Beatdown": 7,
+      "Siege": 1
+    },
+    "KR": {
+      "Control": 34,
+      "Cycle": 9
+    },
     "RU": {
-      "Beatdown": 70,
-      "Siege": 30,
+      "Beatdown": 100,
+      "Siege": 56,
       "Cycle": 30,
       "Air": 16,
       "Control": 5
     },
-    "KR": {
-      "Control": 36,
-      "Cycle": 12
-    },
-    "BR": {
-      "Control": 53,
-      "Cycle": 49,
-      "Bridge Spam": 14,
-      "Beatdown": 1
-    },
     "ES": {
       "Beatdown": 60,
       "Cycle": 30,
-      "Control": 30
+      "Control": 30,
+      "Bridge Spam": 30
     },
     "IR": {
-      "Beatdown": 56,
+      "Beatdown": 55,
       "Cycle": 30,
       "Control": 30,
       "Bridge Spam": 4
     },
     "SA": {
-      "Cycle": 56,
-      "Control": 31,
-      "Beatdown": 28,
+      "Cycle": 76,
+      "Control": 61,
+      "Beatdown": 24,
       "Siege": 2
     },
     "AU": {
-      "Cycle": 54
-    },
-    "JP": {
-      "Beatdown": 30,
-      "Control": 29
-    },
-    "North America": {
-      "Beatdown": 77,
-      "Cycle": 66,
+      "Cycle": 60,
       "Siege": 30
     },
-    "NL": {
-      "Control": 87,
-      "Siege": 56,
-      "Beatdown": 17,
-      "Cycle": 12
+    "JP": {
+      "Control": 117,
+      "Cycle": 60,
+      "Beatdown": 30
+    },
+    "North America": {
+      "Cycle": 88,
+      "Beatdown": 86,
+      "Siege": 30
+    },
+    "PE": {
+      "Control": 30
+    },
+    "CA": {
+      "Control": 30,
+      "Cycle": 25
     },
     "CN": {
       "Cycle": 90,
-      "Bridge Spam": 30
+      "Bridge Spam": 25
     },
     "MX": {
-      "Beatdown": 29
+      "Beatdown": 86,
+      "Cycle": 80,
+      "Siege": 29,
+      "Control": 2
     },
     "PL": {
       "Cycle": 30
     },
     "RO": {
-      "Beatdown": 19,
-      "Cycle": 11
+      "Beatdown": 80,
+      "Cycle": 8
     },
-    "CA": {
-      "Control": 30
+    "VE": {
+      "Cycle": 44
     },
-    "PE": {
-      "Control": 30
+    "GB": {
+      "Beatdown": 82,
+      "Cycle": 8
     },
     "AE": {
       "Control": 29
     },
     "TR": {
-      "Beatdown": 89,
+      "Beatdown": 119,
       "Siege": 30,
       "Cycle": 21
     },
-    "NI": {
-      "Beatdown": 30
+    "AT": {
+      "Beatdown": 30,
+      "Control": 30
     },
-    "GR": {
-      "Beatdown": 30
+    "CO": {
+      "Cycle": 28
+    },
+    "IQ": {
+      "Cycle": 30,
+      "Beatdown": 25,
+      "Siege": 5
+    },
+    "NI": {
+      "Beatdown": 30,
+      "Control": 29
+    },
+    "DO": {
+      "Beatdown": 58,
+      "Air": 30
     },
     "UZ": {
       "Control": 30
     },
-    "HU": {
-      "Cycle": 30
-    },
-    "DO": {
-      "Beatdown": 30,
-      "Air": 30
-    },
     "Europe": {
-      "Cycle": 44,
+      "Cycle": 37,
       "Beatdown": 30
     },
     "CL": {
+      "Beatdown": 60,
       "Air": 30,
-      "Beatdown": 30,
       "Cycle": 25
     },
-    "GT": {
+    "LB": {
+      "Beatdown": 30,
+      "Bridge Spam": 30
+    },
+    "IL": {
+      "Air": 24
+    },
+    "HU": {
+      "Cycle": 30
+    },
+    "BE": {
       "Beatdown": 30
     },
-    "GB": {
-      "Beatdown": 43,
-      "Siege": 10,
-      "Cycle": 5,
-      "Control": 2
-    },
     "SV": {
-      "Beatdown": 26,
-      "Control": 1
-    },
-    "JO": {
       "Beatdown": 30
     },
     "BD": {
@@ -4337,23 +4386,16 @@
     },
     "NO": {
       "Beatdown": 30
+    },
+    "JO": {
+      "Beatdown": 30
     }
   },
   "elixir_heatmap": [
     {
       "type": "Troop",
-      "elixir": 1,
-      "value": 50.0,
-      "cards": [
-        "Skeletons",
-        "Ice Spirit",
-        "Electro Spirit"
-      ]
-    },
-    {
-      "type": "Troop",
       "elixir": 4,
-      "value": 53.6,
+      "value": 49.1,
       "cards": [
         "Mini P.E.K.K.A",
         "Hog Rider",
@@ -4361,29 +4403,22 @@
       ]
     },
     {
+      "type": "Troop",
+      "elixir": 1,
+      "value": 51.9,
+      "cards": [
+        "Skeletons",
+        "Ice Spirit",
+        "Electro Spirit"
+      ]
+    },
+    {
       "type": "Spell",
       "elixir": 2,
-      "value": 51.9,
+      "value": 56.5,
       "cards": [
         "The Log",
         "Zap"
-      ]
-    },
-    {
-      "type": "Spell",
-      "elixir": 4,
-      "value": 47.0,
-      "cards": [
-        "Fireball"
-      ]
-    },
-    {
-      "type": "Spell",
-      "elixir": 3,
-      "value": 50.5,
-      "cards": [
-        "Arrows",
-        "Earthquake"
       ]
     },
     {
@@ -4392,22 +4427,41 @@
       "value": 53.1,
       "cards": [
         "Barbarian Barrel",
-        "Ice Golem",
-        "Giant Snowball"
+        "Giant Snowball",
+        "Ice Golem"
       ]
     },
     {
-      "type": "Building",
-      "elixir": 3,
-      "value": 53.0,
+      "type": "Spell",
+      "elixir": 4,
+      "value": 49.0,
       "cards": [
-        "Cannon"
+        "Fireball"
+      ]
+    },
+    {
+      "type": "Spell",
+      "elixir": 3,
+      "value": 56.1,
+      "cards": [
+        "Arrows",
+        "Earthquake"
+      ]
+    },
+    {
+      "type": "Troop",
+      "elixir": 3,
+      "value": 50.2,
+      "cards": [
+        "Minions",
+        "Skeleton Army",
+        "Dart Goblin"
       ]
     },
     {
       "type": "Troop",
       "elixir": 5,
-      "value": 50.9,
+      "value": 50.5,
       "cards": [
         "Giant",
         "Minion Horde",
@@ -4415,28 +4469,27 @@
       ]
     },
     {
-      "type": "Troop",
+      "type": "Building",
       "elixir": 3,
-      "value": 50.4,
+      "value": 57.0,
       "cards": [
-        "Minions",
-        "Skeleton Army",
-        "Knight"
+        "Cannon"
       ]
     },
     {
       "type": "Troop",
       "elixir": 6,
-      "value": 45.0,
+      "value": 54.9,
       "cards": [
         "Sparky",
-        "Elixir Collector"
+        "Elixir Collector",
+        "Boss Bandit"
       ]
     },
     {
       "type": "Spell",
       "elixir": 6,
-      "value": 55.0,
+      "value": 56.0,
       "cards": [
         "Rocket"
       ]
@@ -4444,9 +4497,8 @@
     {
       "type": "Building",
       "elixir": 4,
-      "value": 49.0,
+      "value": 52.0,
       "cards": [
-        "Tesla",
         "Mortar"
       ]
     }
@@ -4454,117 +4506,117 @@
   "deck_elixir_stats": [
     {
       "elixir": 2.1,
-      "win_rate": 68.9,
-      "count": 103
+      "win_rate": 73.3,
+      "count": 86
     },
     {
       "elixir": 2.4,
-      "win_rate": 63.6,
-      "count": 121
+      "win_rate": 66.4,
+      "count": 238
     },
     {
       "elixir": 2.5,
-      "win_rate": 46.9,
-      "count": 32
+      "win_rate": 65.9,
+      "count": 41
     },
     {
       "elixir": 2.6,
-      "win_rate": 62.1,
-      "count": 507
+      "win_rate": 62.9,
+      "count": 580
     },
     {
       "elixir": 2.8,
-      "win_rate": 62.0,
-      "count": 137
+      "win_rate": 63.1,
+      "count": 187
     },
     {
       "elixir": 2.9,
-      "win_rate": 65.4,
-      "count": 540
+      "win_rate": 65.1,
+      "count": 770
     },
     {
       "elixir": 3.0,
-      "win_rate": 66.4,
-      "count": 464
+      "win_rate": 67.3,
+      "count": 664
     },
     {
       "elixir": 3.1,
-      "win_rate": 67.7,
-      "count": 300
+      "win_rate": 65.0,
+      "count": 420
     },
     {
       "elixir": 3.2,
-      "win_rate": 62.5,
-      "count": 365
+      "win_rate": 62.3,
+      "count": 454
     },
     {
       "elixir": 3.4,
-      "win_rate": 59.2,
-      "count": 250
+      "win_rate": 59.5,
+      "count": 407
     },
     {
       "elixir": 3.5,
-      "win_rate": 66.0,
-      "count": 253
+      "win_rate": 64.9,
+      "count": 353
     },
     {
       "elixir": 3.6,
-      "win_rate": 64.6,
-      "count": 543
+      "win_rate": 63.4,
+      "count": 711
     },
     {
       "elixir": 3.8,
-      "win_rate": 66.8,
-      "count": 527
+      "win_rate": 62.3,
+      "count": 676
     },
     {
       "elixir": 3.9,
-      "win_rate": 56.4,
-      "count": 495
+      "win_rate": 59.9,
+      "count": 636
     },
     {
       "elixir": 4.0,
-      "win_rate": 59.8,
-      "count": 229
+      "win_rate": 58.6,
+      "count": 266
     },
     {
       "elixir": 4.1,
-      "win_rate": 63.5,
-      "count": 334
+      "win_rate": 61.9,
+      "count": 535
     },
     {
       "elixir": 4.2,
-      "win_rate": 54.9,
-      "count": 173
+      "win_rate": 59.5,
+      "count": 343
     },
     {
       "elixir": 4.4,
-      "win_rate": 63.6,
-      "count": 140
+      "win_rate": 60.4,
+      "count": 217
     },
     {
       "elixir": 4.5,
-      "win_rate": 53.6,
-      "count": 28
+      "win_rate": 58.1,
+      "count": 74
     },
     {
       "elixir": 4.6,
-      "win_rate": 60.6,
-      "count": 66
+      "win_rate": 65.0,
+      "count": 60
     }
   ],
   "global_averages": {
-    "wins": 20290,
-    "threeCrownWins": 4194,
-    "bestTrophies": 10330,
-    "warDayWins": 29,
-    "challengeCardsWon": 159954
+    "wins": 22273,
+    "threeCrownWins": 5090,
+    "bestTrophies": 10226,
+    "warDayWins": 40,
+    "challengeCardsWon": 133504
   },
   "global_q3": {
-    "wins": 31529,
-    "threeCrownWins": 5640,
-    "bestTrophies": 10561,
-    "warDayWins": 49,
+    "wins": 31758,
+    "threeCrownWins": 6556,
+    "bestTrophies": 10383,
+    "warDayWins": 72,
     "challengeCardsWon": 149431
   },
   "leaderboards": {
@@ -4582,11 +4634,23 @@
         }
       },
       {
+        "tag": "#YUQYJV08",
+        "name": "RamboOo",
+        "expLevel": 74,
+        "eloRating": 2043,
+        "rank": 2,
+        "clan": {
+          "tag": "#RJQLLPL2",
+          "name": "\u2705 CLICK ME \u2705",
+          "badgeId": 16000000
+        }
+      },
+      {
         "tag": "#RGLQ0Q0RP",
         "name": "AgonyKing\u2728Kun",
         "expLevel": 68,
         "eloRating": 2035,
-        "rank": 2,
+        "rank": 3,
         "clan": {
           "tag": "#J2VC8C0Y",
           "name": "LIVE ON TWITCH",
@@ -4594,39 +4658,27 @@
         }
       },
       {
-        "tag": "#V8P9Y88YL",
-        "name": "David \u30c4 \u2764\ufe0f \u26a1",
-        "expLevel": 54,
-        "eloRating": 2018,
-        "rank": 3,
-        "clan": {
-          "tag": "#GG2UVRP0",
-          "name": "ig: david23.ad",
-          "badgeId": 16000009
-        }
-      },
-      {
-        "tag": "#PQVLP028C",
-        "name": "Jhonking20",
-        "expLevel": 81,
-        "eloRating": 2010,
+        "tag": "#URG920LY8",
+        "name": "\u6709\u8840\u6027\u7684 Agony",
+        "expLevel": 56,
+        "eloRating": 2024,
         "rank": 4,
         "clan": {
-          "tag": "#RVCQRUV9",
-          "name": "France Travail.",
-          "badgeId": 16000078
+          "tag": "#J2VC8C0Y",
+          "name": "LIVE ON TWITCH",
+          "badgeId": 16000142
         }
       },
       {
-        "tag": "#Y0UYR8CLG",
-        "name": "Aiphat\u00f2n",
-        "expLevel": 62,
-        "eloRating": 2002,
+        "tag": "#RRYURUJR",
+        "name": "het boerenpetje",
+        "expLevel": 79,
+        "eloRating": 2005,
         "rank": 5,
         "clan": {
-          "tag": "#RUYG0L9L",
-          "name": "\u203c\ufe0fGiveway\u203c\ufe0f",
-          "badgeId": 16000146
+          "tag": "#QCVYRJ0P",
+          "name": "RT6",
+          "badgeId": 16000077
         }
       }
     ],
@@ -4641,7 +4693,7 @@
           "name": "Europe",
           "isCountry": false
         },
-        "clanScore": 103138,
+        "clanScore": 103307,
         "members": 49,
         "badgeId": 16000028
       },
@@ -4655,7 +4707,7 @@
           "name": "Europe",
           "isCountry": false
         },
-        "clanScore": 103062,
+        "clanScore": 103109,
         "members": 50,
         "badgeId": 16000177
       },
@@ -4669,7 +4721,7 @@
           "name": "Europe",
           "isCountry": false
         },
-        "clanScore": 102565,
+        "clanScore": 102745,
         "members": 50,
         "badgeId": 16000146
       },
@@ -4683,23 +4735,23 @@
           "name": "Europe",
           "isCountry": false
         },
-        "clanScore": 102543,
+        "clanScore": 102689,
         "members": 50,
         "badgeId": 16000028
       },
       {
-        "tag": "#YYP22V9G",
-        "name": "#global Family",
+        "tag": "#8UUPL298",
+        "name": "#Fresh eSports",
         "rank": 5,
-        "previousRank": 4,
+        "previousRank": 43,
         "location": {
           "id": 57000000,
           "name": "Europe",
           "isCountry": false
         },
-        "clanScore": 102511,
+        "clanScore": 102496,
         "members": 50,
-        "badgeId": 16000146
+        "badgeId": 16000133
       }
     ]
   }
