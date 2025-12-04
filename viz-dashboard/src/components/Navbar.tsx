@@ -42,12 +42,6 @@ export default function Navbar() {
               Data Tables
             </Link>
             <Link 
-              href="/meta/deep-dive" 
-              className={`text-sm font-medium transition-colors ${pathname.startsWith('/meta') ? 'text-white' : 'text-gray-400 hover:text-white'}`}
-            >
-              Meta Deep Dive
-            </Link>
-            <Link 
               href="/player" 
               className={`text-sm font-medium transition-colors hover:text-white ${
                 pathname.startsWith('/player') ? 'text-white' : 'text-gray-400'

@@ -12,9 +12,7 @@ import {
   Cell
 } from 'recharts';
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from "react-simple-maps";
-import { scaleLinear } from "d3-scale";
 
-// GeoJSON URL for the world map
 // GeoJSON URL for the world map (Uses Numeric ISO codes in `id`)
 const GEO_URL = "/data/world-110m.json";
 
@@ -29,7 +27,18 @@ interface RegionalMetaMapProps {
   children?: React.ReactNode; // For the description text
 }
 
-const COLORS = ['#3b82f6', '#ef4444', '#22c55e', '#eab308', '#a855f7', '#ec4899', '#f97316'];
+const ARCHETYPE_COLORS: { [key: string]: string } = {
+  "Beatdown": "#ef4444", // Red
+  "Control": "#3b82f6",  // Blue
+  "Cycle": "#22c55e",    // Green
+  "Siege": "#eab308",    // Yellow
+  "Bridge Spam": "#a855f7", // Purple
+  "Air": "#06b6d4",      // Cyan
+  "Spell Bait": "#ec4899", // Pink
+  "Unknown": "#6b7280"   // Gray
+};
+
+const DEFAULT_COLOR = "#6b7280";
 
 // ISO-2 to Numeric ISO Mapping for Map Matching
 // Source: https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.json
@@ -37,13 +46,13 @@ const ISO2_TO_NUMERIC: { [key: string]: string } = {
   "US": "840", "CA": "124", "MX": "484", "BR": "076", "AR": "032", "CL": "152", "CO": "170", "PE": "604", "VE": "862",
   "DE": "276", "FR": "250", "GB": "826", "IT": "380", "ES": "724", "RU": "643", "NL": "528", "TR": "792", "PL": "616", "IR": "364", "SA": "682", "EG": "818", "MA": "504", "AZ": "031",
   "JP": "392", "KR": "410", "IN": "356", "ID": "360", "PH": "608", "TH": "764", "VN": "704", "MY": "458", "SG": "702", "TW": "158", "HK": "344", "AU": "036", "NZ": "554",
-  "CN": "156"
+  "CN": "156", "IL": "376"
 };
 
 // Macro Region Mapping (ISO-2)
 const REGION_MAPPING: { [key: string]: string } = {
   "US": "North America", "CA": "North America", "MX": "North America",
-  "DE": "EMEA", "FR": "EMEA", "GB": "EMEA", "IT": "EMEA", "ES": "EMEA", "RU": "EMEA", "NL": "EMEA", "TR": "EMEA", "PL": "EMEA", "IR": "EMEA", "SA": "EMEA", "EG": "EMEA", "MA": "EMEA", "AZ": "EMEA",
+  "DE": "EMEA", "FR": "EMEA", "GB": "EMEA", "IT": "EMEA", "ES": "EMEA", "RU": "EMEA", "NL": "EMEA", "TR": "EMEA", "PL": "EMEA", "IR": "EMEA", "SA": "EMEA", "EG": "EMEA", "MA": "EMEA", "AZ": "EMEA", "IL": "EMEA",
   "BR": "LATAM", "AR": "LATAM", "CL": "LATAM", "CO": "LATAM", "PE": "LATAM", "VE": "LATAM",
   "JP": "Asia", "KR": "Asia", "IN": "Asia", "ID": "Asia", "PH": "Asia", "TH": "Asia", "VN": "Asia", "MY": "Asia", "SG": "Asia", "TW": "Asia", "HK": "Asia", "AU": "Asia", "NZ": "Asia",
   "CN": "China"
@@ -127,7 +136,17 @@ export default function RegionalMetaMap({ data, children }: RegionalMetaMapProps
                        
                        const hasData = !!iso2;
                        const isSelected = selectedCountry === iso2;
-                       const isInRegion = viewMode === 'region' && iso2 && REGION_MAPPING[iso2] === selectedRegion;
+                       
+                       // Determine if country is in selected region
+                       let isInRegion = false;
+                       if (viewMode === 'region' && iso2) {
+                         if (selectedRegion === "Rest of World") {
+                           // If Rest of World is selected, highlight countries NOT in mapping
+                           isInRegion = !REGION_MAPPING[iso2];
+                         } else {
+                           isInRegion = REGION_MAPPING[iso2] === selectedRegion;
+                         }
+                       }
 
                        let fill = "#262626";
                        if (viewMode === 'global') {
@@ -184,7 +203,10 @@ export default function RegionalMetaMap({ data, children }: RegionalMetaMapProps
               onClick={() => {
                 setViewMode(mode);
                 if (mode === 'region' && !selectedRegion) setSelectedRegion('North America');
-                if (mode === 'country' && !selectedCountry) setSelectedCountry(availableCountries[0]);
+                if (mode === 'country' && !selectedCountry) {
+                  // Default to US if available, otherwise first available
+                  setSelectedCountry(availableCountries.includes('US') ? 'US' : availableCountries[0]);
+                }
               }}
               className={`px-4 py-1.5 rounded-md text-sm font-bold capitalize transition-all ${
                 viewMode === mode 
@@ -276,7 +298,7 @@ export default function RegionalMetaMap({ data, children }: RegionalMetaMapProps
                    />
                    <Bar dataKey="count" radius={[4, 4, 0, 0]}>
                      {chartData.map((entry, index) => (
-                       <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                       <Cell key={`cell-${index}`} fill={ARCHETYPE_COLORS[entry.name] || DEFAULT_COLOR} />
                      ))}
                    </Bar>
                  </BarChart>
@@ -296,8 +318,11 @@ export default function RegionalMetaMap({ data, children }: RegionalMetaMapProps
               <div className="text-2xl font-bold text-white mb-2">{chartData[0]?.name || 'N/A'}</div>
               <div className="w-full bg-[#262626] rounded-full h-2 overflow-hidden">
                 <div 
-                  className="bg-blue-500 h-full" 
-                  style={{ width: `${chartData.length > 0 ? (chartData[0].count / totalGames) * 100 : 0}%` }}
+                  className="h-full" 
+                  style={{ 
+                    width: `${chartData.length > 0 ? (chartData[0].count / totalGames) * 100 : 0}%`,
+                    backgroundColor: chartData.length > 0 ? (ARCHETYPE_COLORS[chartData[0].name] || DEFAULT_COLOR) : DEFAULT_COLOR
+                  }}
                 />
               </div>
               <p className="text-xs text-gray-500 mt-1">
