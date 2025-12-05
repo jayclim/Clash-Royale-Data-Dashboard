@@ -31,7 +31,7 @@ export default function Navbar() {
                 pathname === '/' ? 'text-white' : 'text-gray-400'
               }`}
             >
-              Visualizations
+              Meta Deep Dives
             </Link>
             <Link 
               href="/data" 
