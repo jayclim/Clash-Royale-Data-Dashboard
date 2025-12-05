@@ -14,16 +14,16 @@ def test_environment():
     print(f"Loading .env from: {dotenv_path}")
     load_dotenv(dotenv_path)
     
-    api_key = os.getenv("CR_API_KEY")
+    api_key = os.getenv("CR_PROXY_API_KEY")
     if not api_key:
-        print("❌ CR_API_KEY not found in environment")
+        print("❌ CR_PROXY_API_KEY not found in environment")
         return False
     
-    print(f"✅ CR_API_KEY found (starts with: {api_key[:10]}...)")
+    print(f"✅ CR_PROXY_API_KEY found (starts with: {api_key[:10]}...)")
     
     # Test API
     print("\nTesting API connection...")
-    url = "https://api.clashroyale.com/v1/players/%232J8J2PLLP"
+    url = "https://proxy.royaleapi.dev/v1/players/%232J8J2PLLP"
     headers = {"Authorization": f"Bearer {api_key}"}
     
     try:

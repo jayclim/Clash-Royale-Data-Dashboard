@@ -15,11 +15,11 @@ logger = logging.getLogger(__name__)
 dotenvPath = os.path.join(os.path.dirname(__file__), '..', '..', '.env')
 load_dotenv(dotenvPath)
 
-CR_API_BASE = "https://api.clashroyale.com/v1"
-CR_API_KEY = os.getenv("CR_API_KEY")
+CR_API_BASE = "https://proxy.royaleapi.dev/v1"
+CR_API_KEY = os.getenv("CR_PROXY_API_KEY")
 
 def get_api_key():
-    return os.getenv("CR_API_KEY")
+    return os.getenv("CR_PROXY_API_KEY")
 
 def make_api_request(endpoint: str) -> dict:
     """
